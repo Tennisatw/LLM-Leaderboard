@@ -1,0 +1,5 @@
+.venv/
+0.ipynb
+possible_names.txt
+__pycache__/
+**/pages/*
