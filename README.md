@@ -2,6 +2,8 @@
 
 # LLM Quantitative Capability Evaluation Table
 
+![](25-08-17/en.png)
+
 This table summarizes the performance of commonly used large language models (LLMs) across major benchmark evaluations. The benchmarks cover various aspects such as human preference, knowledge and reasoning abilities, mathematical skills, coding proficiency, and multimodal capabilities. The goal is to assess each model's strengths and arrive at an approximate overall ranking.
 
 <br>
