@@ -2,7 +2,7 @@ from email import message_from_binary_file, policy
 from bs4 import BeautifulSoup
 import csv
 
-file_path = "pages/aime2025.mhtml"
+file_path = "pages/livecodebench.mhtml"
 with open(file_path, "rb") as f:
     msg = message_from_binary_file(f, policy=policy.default)
 
@@ -22,7 +22,7 @@ texts = [text.get_text(strip=True) for text in graph.find_all("text")]
 model_names = [text for text in texts if not "%" in text][1:]
 values = [text for text in texts if "%" in text]
 
-with open("leaderboards/leaderboard_aime2025.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("leaderboards/leaderboard_livecodebench.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Name", "Score"])
     for model_name, value in zip(model_names, values):

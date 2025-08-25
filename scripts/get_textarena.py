@@ -1,11 +1,8 @@
-# Download the mhtml webpage.
-# https://lmarena.ai/leaderboard/text
-
 from email import message_from_binary_file, policy
 from bs4 import BeautifulSoup
 import csv
 
-file_path = "page_arenatext.mhtml"
+file_path = "pages/textarena.mhtml"
 with open(file_path, "rb") as f:
     msg = message_from_binary_file(f, policy=policy.default)
 
@@ -22,7 +19,7 @@ table = soup.find("table")
 tbody = table.find("tbody")
 rows = tbody.find_all("tr")
 
-with open("leaderboard_arenatext.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("leaderboards/leaderboard_textarena.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Name", "Organization", "Score"])
     for row in rows:

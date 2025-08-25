@@ -1,11 +1,8 @@
-# Download the mhtml webpage.
-# https://mmmu-benchmark.github.io/
-
 from email import message_from_binary_file, policy
 from bs4 import BeautifulSoup
 import csv
 
-file_path = "page_mmmu.mhtml"
+file_path = "pages/mmmu.mhtml"
 with open(file_path, "rb") as f:
     msg = message_from_binary_file(f, policy=policy.default)
 
@@ -22,7 +19,7 @@ table = soup.find("table")
 tbody = table.find("tbody")
 rows = tbody.find_all("tr")
 
-with open("leaderboard_mmmu.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("leaderboards/leaderboard_mmmu.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Name", "Date", "Score"])
     for row in rows:

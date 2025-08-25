@@ -2,7 +2,7 @@ from email import message_from_binary_file, policy
 from bs4 import BeautifulSoup
 import csv
 
-file_path = "pages/aime2025.mhtml"
+file_path = "pages/visionarena.mhtml"
 with open(file_path, "rb") as f:
     msg = message_from_binary_file(f, policy=policy.default)
 
@@ -15,16 +15,16 @@ if html is None:
     raise ValueError("No HTML part found in the MHTML file.")
 
 soup = BeautifulSoup(html, "html.parser")
-graph = soup.find("div", class_="h-80")
+table = soup.find("table")
+tbody = table.find("tbody")
+rows = tbody.find_all("tr")
 
-# texts = table.get_text("\n", strip=True).split("\n")
-texts = [text.get_text(strip=True) for text in graph.find_all("text")]
-model_names = [text for text in texts if not "%" in text][1:]
-values = [text for text in texts if "%" in text]
-
-with open("leaderboards/leaderboard_aime2025.csv", "w", newline="", encoding="utf-8") as csvfile:
+with open("leaderboards/leaderboard_visionarena.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Name", "Score"])
-    for model_name, value in zip(model_names, values):
-        score = value.replace("%", "")
-        csvwriter.writerow([model_name, score])
+    for row in rows:
+        cols = row.find_all("td")
+        name = cols[1].get_text(strip=True)
+        arena_score = cols[2].get_text(strip=True)
+
+        csvwriter.writerow([name, arena_score])

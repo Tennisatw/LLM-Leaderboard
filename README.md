@@ -4,7 +4,7 @@
 
 ![](25-08-17/en.png)
 
-This table summarizes the performance of commonly used large language models (LLMs) across major benchmark evaluations. The benchmarks cover various aspects such as human preference, knowledge and reasoning abilities, mathematical skills, coding proficiency, and multimodal capabilities. The goal is to assess each model's strengths and arrive at an approximate overall ranking.
+This table summarizes the performance of commonly used large language models (LLMs) across major benchmark evaluations. The benchmarks cover various aspects such as human preference, knowledge and reasoning abilities, mathematical skills, and coding proficiency. The goal is to assess each model's strengths and arrive at an approximate overall ranking.
 
 <br>
 
@@ -16,7 +16,7 @@ For each core capability of large language models, 1-3 representative leaderboar
 
 ### Human Preference
 
-[LMArena-text](https://huggingface.co/spaces/lmarena-ai/lmarena-leaderboard)
+[LLM text arena](https://huggingface.co/spaces/lmarena-ai/lmarena-leaderboard)
 
 Evaluates **overall dialogue experience** through real user voting—assessing comprehension, response quality, logic, and conversational naturalness. Scores are updated frequently.
 
@@ -30,29 +30,21 @@ An advanced multi-task benchmark designed to more rigorously test language under
 
 <br>
 
-[GPQA](https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro)
+[GPQA-diamond](https://github.com/idavidrein/gpqa)
 
-A benchmark for evaluating high-quality, expert-level Q&A—especially on interdisciplinary reasoning and deep knowledge. The GPQA-Diamond subset includes the most difficult, expert-curated questions.
+The GPQA is a benchmark for evaluating high-quality, expert-level Q&A—especially on interdisciplinary reasoning and deep knowledge. The GPQA-Diamond subset includes the most difficult, expert-curated questions.
 
 <br>
 
-[Humanity’s Last Exam](https://artificialanalysis.ai/evaluations/humanitys-last-exam)
+[Humanity’s Last Exam (HLE)](https://artificialanalysis.ai/evaluations/humanitys-last-exam)
 
 A multimodal benchmark with ~2,500 expert-designed, cross-disciplinary problems. It aims to assess whether AI can match human expert performance on closed academic tasks—like a “final exam” for AI.
 
 <br>
 
-### Long Context Reasoning
-
-[AA-LCR](https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning)
-
-Designed to assess a model’s ability to analyze and reason across **very long texts**, this benchmark focuses on multi-layered, complex contextual understanding and inference.
-
-<br>
-
 ### Mathematical Ability
 
-[AIME2025](https://artificialanalysis.ai/evaluations/aime-2025)
+[AIME 2025](https://artificialanalysis.ai/evaluations/aime-2025)
 
 The American Invitational Mathematics Examination (AIME) benchmark tests models on highly challenging problems in algebra, geometry, and number theory—designed for elite high school math competitors.
 
@@ -72,8 +64,16 @@ Measures real-time code generation and execution. It evaluates how well a model 
 
 <br>
 
-### Multimodal Ability
+### Long Context Reasoning
+
+[AA-LCR](https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning)
+
+Designed to assess a model’s ability to analyze and reason across **very long texts**, this benchmark focuses on multi-layered, complex contextual understanding and inference.
+
+<br>
+
+<!-- ### Multimodal Ability
 
 [MMMU](https://mmmu-benchmark.github.io/)
 
-A large-scale, interdisciplinary benchmark focused on assessing a model’s ability to reason across text and image modalities. It covers a wide variety of academic topics and real-world scenarios.
+A large-scale, interdisciplinary benchmark focused on assessing a model’s ability to reason across text and image modalities. It covers a wide variety of academic topics and real-world scenarios. -->

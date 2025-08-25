@@ -11,6 +11,7 @@ REPLACE = {
     "-prerelease": "",
     "-beta": "",
     "-chat": "",
+    "distill ": "distill",
 }
 
 CATALOG = [
@@ -62,6 +63,8 @@ CATALOG = [
     {"family": "claude-3-opus",      "aliases": [r"claude[^\d]*3(?![\d\.]).*opus", r"claude.*opus[^\d]*3(?![\d\.])"]},
     {"family": "claude-3-sonnet",    "aliases": [r"claude[^\d]*3(?![\d\.]).*sonnet", r"claude.*sonnet[^\d]*3(?![\d\.])"]},
     {"family": "claude-3-haiku",     "aliases": [r"claude[^\d]*3(?![\d\.]).*haiku", r"claude.*haiku[^\d]*3(?![\d\.])"]},
+    {"family": "claude-2.1",         "aliases": [r"claude*2\.?1(?![\d\.])"]},
+    {"family": "claude-2.0",         "aliases": [r"claude*2\.?0(?![\d\.])"]},
 
     # ---------- Alibaba Qwen ----------
     {"family": "qwen3-coder",     "aliases": [r"qwen.*3(?![\d\.]).*coder"]},
@@ -74,14 +77,17 @@ CATALOG = [
     {"family": "qvq",             "aliases": [r"\bqvq\b"]},
 
     # ---------- Zhipu GLM ----------
+    {"family": "glm-4.5v",        "aliases": [r"glm.*4\.?5(?!\d)v"]},
     {"family": "glm-4.5",         "aliases": [r"glm.*4\.?5(?!\d)"]},
     {"family": "glm-4.1",         "aliases": [r"glm.*4\.?1(?!\d)"]},
     {"family": "glm-4",           "aliases": [r"glm[^\d]*4(?![\d\.])"]},
 
     # ---------- DeepSeek ----------
     # {"family": "deepseek-r1-distill-qwen32b", "aliases": [r"deepseek.*r1.*distill.*qwen.*32b"]},
+    {"family": "deepseek-r1-distill-qwen",     "aliases": [r"deepseek.*r1.*distill.*qwen"]},
+    {"family": "deepseek-r1-distill-llama",    "aliases": [r"deepseek.*r1.*distill.*llama"]},
     {"family": "deepseek-r1",    "aliases": [r"deepseek.*r1"]},
-
+    {"family": "deepseek-v3.1",  "aliases": [r"deepseek.*v3\.?1(?!\d)"]},
     {"family": "deepseek-v3",    "aliases": [r"deepseek.*v3(?![\d\.])"]},
     {"family": "deepseek-v2.5",  "aliases": [r"deepseek.*v2\.?5(?!\d)"]},
 
@@ -101,6 +107,9 @@ CATALOG = [
     {"family": "nvila",           "aliases": [r"\bnvila\b"]},
 
     # ---------- Mistral (and tolerant “Magistral” typos) ----------
+    {"family": "mistral-large",   "aliases": [r"\b(?:mistral|magistral).*large"]},
+    {"family": "mistral-medium",  "aliases": [r"\b(?:mistral|magistral).*medium"]},
+    {"family": "mistral-small",   "aliases": [r"\b(?:mistral|magistral).*small"]},
     {"family": "mistral",         "aliases": [r"\b(?:mistral|magistral)\b"]},
 
     # ---------- MiniMax ----------
@@ -328,10 +337,10 @@ TIER_MAP = {
     # "flash-lite": "flash-lite", "flashlite": "flash-lite",
     "lite": "lite", "light": "lite",
 
-    # high/low descriptors
-    "high": "high",
-    "medium": "medium", "mid": "medium", "midlevel": "medium", "mid-level": "medium",
-    "low": "low", "lo": "low",
+    # # high/low descriptors
+    # "high": "high",
+    # "medium": "medium", "mid": "medium", "midlevel": "medium", "mid-level": "medium",
+    # "low": "low", "lo": "low",
 
     # release-type descriptors
     "exp": "exp", "experimental": "exp",
@@ -343,7 +352,6 @@ TIER_MAP = {
     "thinking": "thinking", "reasoning": "thinking",
     "deepthink": "thinking", "deepthinking": "thinking",
     "wthinking": "thinking", "withthinking": "thinking",
-    "distill": "distill",
 
     # marketing descriptors
     "ultra": "ultra",

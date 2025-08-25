@@ -1,0 +1,235 @@
+Name,Organization,Score
+gemini-2.5-pro,Google,1457
+gpt-5-high,OpenAI,1455
+claude-opus-4-1-20250805-thinking-16k,Anthropic,1451
+o3-2025-04-16,OpenAI,1445
+chatgpt-4o-latest-20250326,OpenAI,1442
+claude-opus-4-1-20250805,Anthropic,1439
+gpt-4.5-preview-2025-02-27,OpenAI,1439
+grok-4-0709,xAI,1425
+gpt-5-chat,OpenAI,1423
+qwen3-235b-a22b-instruct-2507,Alibaba,1422
+MoonshotAIkimi-k2-0711-preview,Moonshot,1421
+claude-opus-4-20250514-thinking-16k,Anthropic,1420
+deepseek-r1-0528,DeepSeek,1417
+mistral-medium-2508,Mistral,1414
+glm-4.5,Z.ai,1413
+claude-opus-4-20250514,Anthropic,1411
+grok-3-preview-02-24,xAI,1409
+gpt-4.1-2025-04-14,OpenAI,1407
+gemini-2.5-flash,Google,1406
+qwen3-235b-a22b-thinking-2507,Alibaba,1403
+claude-sonnet-4-20250514-thinking-32k,Anthropic,1399
+o1-2024-12-17,OpenAI,1399
+qwen3-235b-a22b-no-thinking,Alibaba,1397
+o4-mini-2025-04-16,OpenAI,1395
+deepseek-r1,DeepSeek,1394
+deepseek-v3-0324,DeepSeek,1393
+gpt-5-mini-high,OpenAI,1390
+qwen-vl-max-2025-08-13,Alibaba,1381
+o1-preview,OpenAI,1386
+claude-sonnet-4-20250514,Anthropic,1384
+qwen3-coder-480b-a35b-instruct,Alibaba,1382
+claude-3-7-sonnet-20250219-thinking-32k,Anthropic,1384
+mistral-medium-2505,Mistral,1382
+Tencenthunyuan-turbos-20250416,Tencent,1382
+qwen3-30b-a3b-instruct-2507,Alibaba,1380
+glm-4.5-air,Z.ai,1378
+gpt-4.1-mini-2025-04-14,OpenAI,1376
+qwen3-235b-a22b,Alibaba,1375
+qwen2.5-max,Alibaba,1372
+Minimaxminimax-m1,MiniMax,1370
+Claude 3.5 Sonnet (10/22),Anthropic,1367
+grok-3-mini-high,xAI,1363
+gemma-3-27b-it,Google,1364
+o3-mini-high,OpenAI,1363
+grok-3-mini-beta,xAI,1359
+Stepfunstep-3,StepFun,1354
+deepseek-v3,DeepSeek,1356
+gpt-oss-120b,OpenAI,1354
+mistral-small-2506,Mistral,1353
+gemini-2.0-flash-lite-preview-02-05,Google,1352
+gpt-5-nano-high,OpenAI,1349
+Tencenthunyuan-turbos-20250226,Tencent,1346
+qwen3-32b,Alibaba,1346
+Nvidiallama-3.1-nemotron-ultra-253b-v1,Nvidia,1345
+glm-4.5v,Z.ai,1339
+Gemini-1.5-Pro-002,Google,1350
+qwen-plus-0125,Alibaba,1344
+Nvidianvidia-llama-3.3-nemotron-super-49b-v1.5,Nvidia,1342
+Coherecommand-a-03-2025,Cohere,1347
+o3-mini,OpenAI,1347
+glm-4-plus-0111,Zhipu,1342
+gemma-3-12b-it,Google,1341
+Tencenthunyuan-turbo-0110,Tencent,1340
+gpt-4o-2024-05-13,OpenAI,1344
+Claude 3.5 Sonnet (06/20),Anthropic,1340
+qwq-32b,Alibaba,1337
+gpt-oss-20b,OpenAI,1332
+Stepfunstep-2-16k-exp-202412,StepFun,1332
+o1-mini,OpenAI,1335
+llama-3.1-405b-instruct-bf16,Meta,1335
+GPT-4o (08/06),OpenAI,1333
+gemini-advanced-0514,Google,1332
+Nvidiallama-3.3-nemotron-49b-super-v1,Nvidia,1325
+llama-3.1-405b-instruct-fp8,Meta,1333
+grok-2-2024-08-13,xAI,1332
+Tencenthunyuan-large-2025-02-10,Tencent,1325
+llama-4-maverick-17b-128e-instruct,Meta,1328
+qwen3-30b-a3b,Alibaba,1327
+01.AIyi-lightning,01 AI,1328
+Stepfunstep-1o-turbo-202506,StepFun,1323
+deepseek-v2.5-1210,DeepSeek,1322
+gpt-4-turbo-2024-04-09,OpenAI,1324
+gpt-4.1-nano-2025-04-14,OpenAI,1320
+claude-3-opus-20240229,Anthropic,1322
+gemini-1.5-pro-001,Google,1321
+llama-4-scout-17b-16e-instruct,Meta,1319
+amazon-nova-experimental-chat-05-14,Amazon,1319
+llama-3.3-70b-instruct,Meta,1320
+glm-4-plus,Zhipu AI,1318
+claude-3-5-haiku-20241022,Anthropic,1317
+qwen-max-0919,Alibaba,1317
+gemma-3n-e4b-it,Google,1316
+qwen2.5-plus-1127,Alibaba,1315
+GPT-4o-mini (07/18),OpenAI,1316
+gpt-4-1106-preview,OpenAI,1314
+gpt-4-0125-preview,OpenAI,1314
+athene-v2-chat,NexusFlow,1314
+Tencenthunyuan-standard-2025-02-10,Tencent,1309
+mistral-large-2407,Mistral,1313
+Gemini-1.5-Flash-002,Google,1312
+gemma-3-4b-it,Google,1303
+deepseek-v2.5,DeepSeek,1306
+grok-2-mini-2024-08-13,xAI,1306
+athene-70b-0725,NexusFlow,1305
+mistral-large-2411,Mistral,1305
+magistral-medium-2506,Mistral,1301
+qwen2.5-72b-instruct,Alibaba,1302
+Nvidiallama-3.1-nemotron-70b-instruct,Nvidia,1298
+Tencenthunyuan-large-vision,Tencent,1297
+mistral-small-3.1-24b-instruct-2503,Mistral,1296
+llama-3.1-tulu-3-70b,Ai2,1289
+Meta-Llama-3.1-70B-Instruct,Meta,1294
+jamba-1.5-large,AI21 Labs,1289
+reka-core-20240904,Reka AI,1288
+Nvidiallama-3.1-nemotron-51b-instruct,Nvidia,1286
+amazon-nova-pro-v1.0,Amazon,1289
+gpt-4-0314,OpenAI,1287
+gemma-2-27b-it,Google,1286
+gemini-1.5-flash-001,Google,1285
+claude-3-sonnet-20240229,Anthropic,1282
+gemma-2-9b-it-simpo,Princeton,1280
+Coherecommand-r-plus-08-2024,Cohere,1279
+Nvidianemotron-4-340b-instruct,Nvidia,1279
+glm-4-0520,Zhipu AI,1275
+reka-flash-20240904,Reka AI,1275
+mistral-small-24b-instruct-2501,Mistral,1275
+llama-3-70b-instruct,Meta,1276
+gpt-4-0613,OpenAI,1275
+qwen2.5-coder-32b-instruct,Alibaba,1271
+Coherec4ai-aya-expanse-32b,Cohere,1268
+deepseek-coder-v2,DeepSeek AI,1264
+Coherecommand-r-plus,Cohere,1265
+qwen2-72b-instruct,Alibaba,1264
+gemma-2-9b-it,Google,1265
+claude-3-haiku-20240307,Anthropic,1262
+amazon-nova-lite-v1.0,Amazon,1262
+gemini-1.5-flash-8b-001,Google,1262
+olmo-2-0325-32b-instruct,Allen AI,1256
+Azurephi-4,Microsoft,1258
+Coherecommand-r-08-2024,Cohere,1255
+amazon-nova-micro-v1.0,Amazon,1244
+ministral-8b-2410,Mistral,1240
+mistral-large-2402,Mistral,1244
+jamba-1.5-mini,AI21 Labs,1241
+Tencenthunyuan-standard-256k,Tencent,1237
+qwen1.5-110b-chat,Alibaba,1237
+qwen1.5-72b-chat,Alibaba,1236
+reka-flash-21b-20240226-online,Reka AI,1235
+gemini-pro-dev-api,Google,1234
+mixtral-8x22b-instruct-v0.1,Mistral,1232
+Coherecommand-r,Cohere,1231
+reka-flash-21b-20240226,Reka AI,1229
+Coherec4ai-aya-expanse-8b,Cohere,1228
+llama-3.1-tulu-3-8b,Ai2,1225
+mistral-medium,Mistral,1226
+gemini-pro,Google,1222
+llama-3-8b-instruct,Meta,1225
+gpt-3.5-turbo-0125,OpenAI,1225
+HuggingFacezephyr-orpo-141b-A35b-v0.1,HuggingFace,1216
+granite-3.1-8b-instruct,IBM,1213
+01.AIyi-1.5-34b-chat,01 AI,1217
+llama-3.1-8b-instruct,Meta,1215
+qwen1.5-32b-chat,Alibaba,1208
+gpt-3.5-turbo-1106,OpenAI,1202
+Azurephi-3-medium-4k-instruct,Microsoft,1202
+InternLMinternlm2_5-20b-chat,InternLM,1199
+gemma-2-2b-it,Google,1201
+mixtral-8x7b-instruct-v0.1,Mistral,1201
+dbrx-instruct-preview,Databricks,1198
+qwen1.5-14b-chat,Alibaba,1196
+deepseek-llm-67b-chat,DeepSeek AI,1186
+Azurewizardlm-70b,Microsoft,1188
+granite-3.0-8b-instruct,IBM,1188
+01.AIyi-34b-chat,01 AI,1187
+granite-3.1-2b-instruct,IBM,1184
+OpenChatopenchat-3.5-0106,OpenChat,1185
+OpenChatopenchat-3.5,OpenChat,1184
+Snowflakesnowflake-arctic-instruct,Snowflake,1183
+tulu-2-dpo-70b,AllenAI/UW,1182
+gemma-1.1-7b-it,Google,1180
+openhermes-2.5-mistral-7b,NousResearch,1178
+vicuna-33b,LMSYS,1177
+starling-lm-7b-beta,Nexusflow,1177
+Azurephi-3-small-8k-instruct,Microsoft,1176
+llama-2-70b-chat,Meta,1175
+nous-hermes-2-mixtral-8x7b-dpo,NousResearch,1170
+starling-lm-7b-alpha,UC Berkeley,1172
+qwq-32b-preview,Alibaba,1169
+llama-3.2-3b-instruct,Meta,1172
+Nvidiallama2-70b-steerlm-chat,Nvidia,1162
+solar-10.7b-instruct-v1.0,Upstage AI,1158
+dolphin-2.2.1-mistral-7b,Cognitive Computations,1156
+granite-3.0-2b-instruct,IBM,1162
+mpt-30b-chat,MosaicML,1153
+falcon-180b-chat,TII,1148
+mistral-7b-instruct-v0.2,Mistral,1155
+Azurewizardlm-13b,Microsoft,1153
+Azurephi-3-mini-4k-instruct-june-2024,Microsoft,1148
+qwen1.5-7b-chat,Alibaba,1147
+llama-2-13b-chat,Meta,1147
+vicuna-13b,LMSYS,1145
+qwen-14b-chat,Alibaba,1141
+codellama-34b-instruct,Meta,1140
+palm-2,Google,1137
+gemma-7b-it,Google,1136
+HuggingFacezephyr-7b-alpha,HuggingFace,1132
+HuggingFacezephyr-7b-beta,HuggingFace,1136
+Azurephi-3-mini-128k-instruct,Microsoft,1136
+guanaco-33b,UW,1131
+HuggingFacesmollm2-1.7b-instruct,HuggingFace,1129
+codellama-70b-instruct,Meta,1124
+Azurephi-3-mini-4k-instruct,Microsoft,1134
+stripedhyena-nous-7b,Together AI,1123
+llama-3.2-1b-instruct,Meta,1122
+vicuna-7b,LMSYS,1118
+gemma-1.1-2b-it,Google,1116
+llama-2-7b-chat,Meta,1113
+mistral-7b-instruct,Mistral,1113
+gemma-2b-it,Google,1093
+qwen1.5-4b-chat,Alibaba,1094
+olmo-7b-instruct,Allen AI,1080
+koala-13b,UC Berkeley,1073
+gpt4all-13b-snoozy,Nomic AI,1065
+alpaca-13b,Stanford,1065
+mpt-7b-chat,MosaicML,1063
+chatglm3-6b,Tsinghua,1059
+RWKVRWKV-4-Raven-14B,RWKV,1044
+chatglm2-6b,Tsinghua,1029
+oasst-pythia-12b,OpenAssistant,1023
+chatglm-6b,Tsinghua,999
+fastchat-t5-3b,LMSYS,993
+dolly-v2-12b,Databricks,978
+llama-13b,Meta,970
+Stabilitystablelm-tuned-alpha-7b,Stability AI,955

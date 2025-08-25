@@ -1,10 +1,10 @@
 import pandas as pd
 from functools import reduce
-from scripts.rename import rename
-from scripts.ensemble_rankings import compute_ensemble_rankings
+from rename import rename
+from ensemble_rankings import compute_ensemble_rankings
 
-# Read all raw leaderboards
-data_list = ['arenatext', 'mmlupro', 'gpqadiamond', 'hle', 'aalcr', 'aime2025', 'lcb', 'mmmu']
+# Read all raw leaderboards, rename models
+data_list = ['textarena', 'mmlupro', 'gpqadiamond', 'hle', 'aime2025', 'livecodebench', 'aalcr']
 data = {}
 for name in data_list:
     df = pd.read_csv(f'leaderboards/leaderboard_{name}.csv', usecols=["Name", "Score"])
@@ -14,8 +14,7 @@ for name in data_list:
     df = df.rename(columns={'Name':f'{name} Name', 'Score':f'{name} Score'})
     data[name] = df
 
-data['mmmu']['mmmu Score'] = pd.to_numeric(data['mmmu']['mmmu Score'], errors='coerce')
-
+# Merge all dataframes on 'canonical' column
 df = reduce(lambda l,r: pd.merge(l, r, on='canonical', how='outer'), data.values())
 
 cols = list(df.columns)
@@ -43,5 +42,5 @@ df = df.sort_values('ranking')
 df['ranking'] = df['ranking'].round(4)
 
 # df.to_csv('leaderboard.csv', index=False)
-df.to_excel('leaderboard.xlsx', index=False)
+df.to_excel('leaderboard_full.xlsx', index=False)
 

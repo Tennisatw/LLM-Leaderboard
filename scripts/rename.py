@@ -1,6 +1,6 @@
 import re
 from difflib import get_close_matches
-from scripts.config import REPLACE, CATALOG, TIER_MAP, SIZE_PAT, DATE_TRAILERS
+from config import REPLACE, CATALOG, TIER_MAP, SIZE_PAT, DATE_TRAILERS
 
 def strip_dates(s: str) -> str:
     out = s
