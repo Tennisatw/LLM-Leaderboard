@@ -1,4 +1,4 @@
-![中文版本](README-zh.md)
+[中文版本](README-zh.md)
 
 # LLM Quantitative Capability Evaluation Table
 

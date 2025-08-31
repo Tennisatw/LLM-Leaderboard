@@ -1,4 +1,4 @@
-![English version](README.md)
+[English version](README.md)
 
 # 大语言模型定量能力评估表
 
