@@ -2,9 +2,9 @@
 
 # LLM Quantitative Capability Evaluation Table
 
-![](25-08-24/en.png)
+![](25-08-31/en.png)
 
-This table summarizes the performance of commonly used large language models (LLMs) across major benchmark evaluations. The benchmarks cover various aspects such as human preference, knowledge and reasoning abilities, mathematical skills, and coding proficiency. The goal is to assess each model's strengths and arrive at an approximate overall ranking.
+This table summarizes the performance of popular large language models across well-known benchmark leaderboards, integrating evaluation results to obtain an overall ranking. These rankings cover a range of capabilities, including human preference, knowledge and reasoning, mathematical skills, and coding ability.
 
 <br>
 
@@ -52,15 +52,15 @@ The American Invitational Mathematics Examination (AIME) benchmark tests models 
 
 ### Coding Ability
 
-<!-- [SWE-Bench](https://www.swebench.com/)
-
-SWE-Bench 是一个用于评估大型语言模型在真实软件工程场景中自动修复代码能力的基准数据集与测试平台，基于 GitHub 开源项目的历史问题与修复提交构建。
-
-<br> -->
-
 [LiveCodeBench](https://livecodebench.github.io/leaderboard.html)
 
 Measures real-time code generation and execution. It evaluates how well a model can write, run, and debug code dynamically in an interactive environment.
+
+<br>
+
+[SWE-Bench](https://www.swebench.com/)
+
+SWE-Bench is a benchmark dataset and testing platform for evaluating large language models' ability to automatically fix code in real software engineering scenarios, built on the historical issues and fix submissions of GitHub open-source projects.
 
 <br>
 
