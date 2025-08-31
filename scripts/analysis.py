@@ -4,7 +4,7 @@ from rename import rename
 from ensemble_rankings import compute_ensemble_rankings
 
 # Read all raw leaderboards, rename models
-data_list = ['textarena', 'mmlupro', 'gpqadiamond', 'hle', 'aime2025', 'livecodebench', 'aalcr']
+data_list = ['textarena', 'visionarena', 'mmlupro', 'gpqadiamond', 'hle', 'aime2025', 'livecodebench', 'swebench', 'aalcr']
 data = {}
 for name in data_list:
     df = pd.read_csv(f'leaderboards/leaderboard_{name}.csv', usecols=["Name", "Score"])

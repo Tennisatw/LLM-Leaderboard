@@ -12,6 +12,8 @@ REPLACE = {
     "-beta": "",
     "-chat": "",
     "distill ": "distill",
+    "[r]": "reasoning",
+    "openai": ""
 }
 
 CATALOG = [
@@ -349,9 +351,9 @@ TIER_MAP = {
     "pro": "pro", "professional": "pro",
 
     # cognitive descriptors
-    "thinking": "thinking", "reasoning": "thinking",
-    "deepthink": "thinking", "deepthinking": "thinking",
-    "wthinking": "thinking", "withthinking": "thinking",
+    "thinking": "reasoning", "reasoning": "reasoning",
+    "deepthink": "reasoning", "deepthinking": "reasoning",
+    "wthinking": "reasoning", "withthinking": "reasoning",
 
     # marketing descriptors
     "ultra": "ultra",

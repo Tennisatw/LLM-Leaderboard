@@ -49,13 +49,13 @@ def pick_family(s: str, catalog=CATALOG):
 
 def rename(raw: str, catalog=CATALOG):
     s = raw.lower()
+    for old, new in REPLACE.items():
+        s = s.replace(old, new)
     s = re.sub(r"\s+", " ", s.strip())
     size = extract_size(s)
     tiers = extract_tiers(s)
 
     s = strip_dates(s)
-    for old, new in REPLACE.items():
-        s = s.replace(old, new)
 
     family = pick_family(s, catalog)
 
@@ -73,7 +73,7 @@ def rename(raw: str, catalog=CATALOG):
     canonical = re.sub(r"-{2,}", "-", canonical)
     return canonical
 
-# print(rename('GPT-3.5 Turbo'))
+# print(rename('Claude 3.7 Sonnet [R]'))
 
 # gpt-4-1106-preview
 # gemma-3n-e4b-it

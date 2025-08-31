@@ -1,0 +1,38 @@
+Name,Score
+OpenAI o3-mini,61
+DeepSeek-R1,49.2
+OpenAI o1,48.9
+Claude 3.7 Sonnet [R],70.3
+Llama 4 Behemoth,
+DeepSeek V3 0324,38.8
+OpenAI o1-mini,
+Gemini 2.0 Flash,51.8
+Gemma 3 27b,10.2
+Qwen2.5-VL-32B,18.8
+Claude 3.7 Sonnet,62.3
+Claude 3.5 Sonnet,49
+Llama 3.3 70b,
+Nova Pro,
+Llama 3.1 405b,
+GPT-4o mini,
+Claude 3.5 Haiku,40.6
+GPT-4o,31
+GPT-4.5,38
+Grok 4,75
+GPT-5,74.9
+Claude Opus 4.1,74.5
+Claude 4 Sonnet,72.7
+Claude 4 Opus,72.5
+OpenAI o3,69.1
+OpenAI o4-mini,68.1
+Gemini 2.5 Pro,59.6
+GPT-4.1,55
+GPT-4.1 mini,23.6
+Grok 3 [Beta],
+GPT oss 20b,
+GPT oss 120b,
+Nemotron Ultra 253B,
+Gemini 2.5 Flash,
+Llama 4 Maverick,
+Llama 4 Scout,
+GPT-4.1 nano,
