@@ -1,10 +1,14 @@
 [中文版本](README-zh.md)
 
-# LLM Quantitative Capability Evaluation Table
+# LLM Composite Rankings
 
 ![](25-08-31/en.png)
 
-This table summarizes the performance of popular large language models across well-known benchmark leaderboards, integrating evaluation results to obtain an overall ranking. These rankings cover a range of capabilities, including human preference, knowledge and reasoning, mathematical skills, and coding ability.
+This chart compiles the performance of commonly used large language models across major benchmark leaderboards. Evaluation categories include:
+
+Human preference (text & vision), Knowledge and reasoning, Mathematical ability, Coding capability, and Long-context reasoning
+
+Based on the aggregated results from these evaluations, an overall ranking is produced.
 
 <br>
 
@@ -19,6 +23,12 @@ For each core capability of large language models, 1-3 representative leaderboar
 [LLM text arena](https://huggingface.co/spaces/lmarena-ai/lmarena-leaderboard)
 
 Evaluates **overall dialogue experience** through real user voting—assessing comprehension, response quality, logic, and conversational naturalness. Scores are updated frequently.
+
+<br>
+
+[LLM vision arena](https://huggingface.co/spaces/lmarena-ai/lmarena-leaderboard)
+
+Evaluates **vision-related** model outputs through real user voting—assessing image understanding, description generation, visual reasoning, and more.
 
 <br>
 

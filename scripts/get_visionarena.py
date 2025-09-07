@@ -2,7 +2,7 @@ from email import message_from_binary_file, policy
 from bs4 import BeautifulSoup
 import csv
 
-file_path = "pages/visionarena.mhtml"
+file_path = "pages/Vision Arena _ LMArena.mhtml"
 with open(file_path, "rb") as f:
     msg = message_from_binary_file(f, policy=policy.default)
 
