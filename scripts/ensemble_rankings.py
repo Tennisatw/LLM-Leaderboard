@@ -132,14 +132,14 @@ def compute_ensemble_rankings(
     Then produce ranks (1=best) for each, and a consensus rank.
     """
     # Compute scores
-    # z_mean = aggregate_zscore_mean(df, min_obs=min_obs_mean)
-    # borda = aggregate_borda(df, higher_is_better=higher_is_better, min_obs=min_obs_borda)
+    z_mean = aggregate_zscore_mean(df, min_obs=min_obs_mean)
+    borda = aggregate_borda(df, higher_is_better=higher_is_better, min_obs=min_obs_borda)
     svd_s = aggregate_svd_impute(df, rank=svd_rank, min_obs=min_obs_svd)
 
     out = pd.DataFrame({
-        # "z_mean_score": z_mean,
-        # "borda_score": borda,
-        "total_score": svd_s,
+        "z_mean_score": z_mean,
+        "borda_score": borda,
+        "svd_s_score": svd_s,
     })
 
     # Convert scores to ranks (1=best). For NaNs, rank them at the bottom by placing them after max.
@@ -151,28 +151,28 @@ def compute_ensemble_rankings(
         ranks = ranks.where(series.notna(), max_rank + 1)
         return ranks.astype(int)
 
-    # out["z_mean_rank"] = score_to_rank(out["z_mean_score"], ascending=False)
-    # out["borda_rank"] = score_to_rank(out["borda_score"], ascending=False)
-    out["ranking"] = score_to_rank(out["total_score"], ascending=False)
+    out["z_mean_rank"] = score_to_rank(out["z_mean_score"], ascending=False)
+    out["borda_rank"] = score_to_rank(out["borda_score"], ascending=False)
+    out["svd_s_rank"] = score_to_rank(out["svd_s_score"], ascending=False)
 
-    # # Consensus
-    # if consensus == "avg_rank":
-    #     out["consensus_rank"] = out[["z_mean_rank", "borda_rank", "svd_impute_rank"]].mean(axis=1)
-    # elif consensus == "avg_z":
-    #     # Standardize the three scores then average; then convert to rank
-    #     z3 = out[["z_mean_score", "borda_score", "svd_impute_score"]].apply(
-    #         lambda s: (s - s.mean(skipna=True)) / (s.std(skipna=True, ddof=0) if s.std(skipna=True, ddof=0) not in [0, np.nan] else 1.0)
-    #     )
-    #     combo = z3.mean(axis=1)
-    #     # turn into rank
-    #     combo_rank = combo.rank(ascending=False, method="min")
-    #     max_rank = np.nanmax(combo_rank.to_numpy())
-    #     out["consensus_rank"] = combo_rank.where(combo.notna(), max_rank + 1)
-    # else:
-    #     raise ValueError("consensus must be 'avg_rank' or 'avg_z'")
+    # Consensus
+    if consensus == "avg_rank":
+        out["ranking"] = out[["z_mean_rank", "borda_rank", "svd_s_rank"]].mean(axis=1)
+    elif consensus == "avg_z":
+        # Standardize the three scores then average; then convert to rank
+        z3 = out[["z_mean_score", "borda_score", "svd_s_score"]].apply(
+            lambda s: (s - s.mean(skipna=True)) / (s.std(skipna=True, ddof=0) if s.std(skipna=True, ddof=0) not in [0, np.nan] else 1.0)
+        )
+        combo = z3.mean(axis=1)
+        # turn into rank
+        combo_rank = combo.rank(ascending=False, method="min")
+        max_rank = np.nanmax(combo_rank.to_numpy())
+        out["ranking"] = combo_rank.where(combo.notna(), max_rank + 1)
+    else:
+        raise ValueError("consensus must be 'avg_rank' or 'avg_z'")
 
-    # Final sort by consensus_rank, then by svd_impute_rank as tie-breaker
-    # out = out.sort_values(by=["consensus_rank", "svd_impute_rank", "z_mean_rank", "borda_rank"])
+    # Final sort by total ranking, then by svd_s_rank as tie-breaker
+    out = out.sort_values(by=["ranking", "svd_s_rank", "z_mean_rank", "borda_rank"])
     return out
 
 def demo_synthetic(n_models: int = 150, n_boards: int = 8, missing_rate: float = 0.5, random_state: int = 0) -> pd.DataFrame:

@@ -1,0 +1,100 @@
+Name,Score
+GPT-5(high),75.6
+GPT-5(medium),72.8
+o3,69.3
+GPT-5 mini(high),68.0
+Grok 4,68.0
+Qwen3 235B2507,67.0
+Claude 4.1Opus,66.3
+GPT-5 mini(medium),66.0
+Gemini 2.5Pro,66.0
+Claude 4Sonnet,64.7
+Gemini 2.5Flash,61.7
+GPT-4.1,61.0
+Qwen3 Next80B A3B,60.3
+Qwen3 30B2507,59.0
+GPT-5(low),58.7
+o4-mini(high),55.0
+DeepSeekR1 0528,54.7
+MiniMax M180k,54.3
+DeepSeekV3.1,53.3
+GPT-4o(ChatGPT),53.0
+Kimi K2 0905,52.3
+DeepSeekR1 (Jan),52.3
+MiniMax M140k,51.7
+Qwen3 Next 80BA3B,51.3
+Gemini 2.5Flash-Lite,51.3
+Kimi K2,51.0
+gpt-oss-120B(high),50.7
+Grok 3miniReasoning (high),50.3
+Grok CodeFast 1,48.3
+GLM-4.5,48.3
+Llama 4Maverick,46.0
+Gemini 2.5Flash,45.9
+DeepSeek V3.1,45.0
+Claude 4 Sonnet,44.3
+GLM-4.5-Air,43.7
+GPT-4.1 mini,42.3
+Qwen3 Coder480B,42.3
+GPT-5 nano(high),41.7
+DeepSeek V30324,41.0
+GPT-5 nano(medium),40.0
+Qwen3 Max(Preview),39.7
+Qwen3 4B2507,37.7
+Claude 4 Opus,36.0
+GPT-5 mini(minimal),35.7
+LlamaNemotronSuper 49B v1.5,34.0
+Claude 4Opus,33.7
+Gemini 2.5Flash-Lite,31.3
+Qwen3 235B 2507,31.2
+Nova Premier,30.0
+Qwen3 Coder 30B,29.0
+DeepSeek V3(Dec),29.0
+Devstral Medium,28.7
+Gemini 2.0Flash,28.3
+Mistral Medium3,28.0
+Llama 4 Scout,25.8
+GPT-5 (minimal),25.0
+QwQ-32B,25.0
+NVIDIA NemotronNano 9B V2,22.7
+Qwen3 30B 2507,22.7
+Llama NemotronSuper 49B v1.5,22.0
+Hermes 4405B,20.7
+Qwen2.5 72B,20.3
+GPT-5 nano(minimal),20.0
+Hermes 4 405B,20.0
+Mistral Medium3.1,19.7
+Nova Pro,19.0
+gpt-oss-20B(high),18.7
+NVIDIANemotronNano 9B V2,18.3
+Command A,18.0
+Nova Lite,17.7
+Mistral Small3.2,17.3
+Jamba 1.7 Large,17.3
+GPT-4.1 nano,17.0
+Llama 3.3NemotronSuper 49B,17.0
+Llama 3.1 8B,15.7
+Llama 3.3 70B,15.0
+EXAONE 4.032B,14.0
+Mistral Small3.1,13.7
+Phi-4 Mini,13.7
+DeepSeekR1 0528Qwen3 8B,13.0
+Llama 3.2 11B(Vision),11.7
+Llama 3.3Nemotron Super49B v1,11.3
+DeepSeekR1 DistillLlama 70B,11.0
+Pixtral Large,10.3
+Nova Micro,9.7
+EXAONE 4.0 32B,8.0
+LlamaNemotronUltra,7.3
+Llama 3.1Nemotron 70B,7.0
+Gemma 3 12B,6.7
+Hermes 4 -Llama-3.170B,6.7
+Llama 3.1 70B,6.3
+Gemma 3 4B,5.7
+Mistral Large 2(Nov),5.3
+Llama 3.2 1B,5.0
+Granite 3.3 8B,4.3
+Hermes 4 70B,2.0
+Llama 3.2 3B,2.0
+Phi-3 Mini,2.0
+DeepSeekR1 DistillQwen 1.5B,0.3
