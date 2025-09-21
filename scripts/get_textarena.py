@@ -26,6 +26,6 @@ with open("leaderboards/leaderboard_textarena.csv", "w", newline="", encoding="u
         cols = row.find_all("td")
         name = cols[1].get_text(strip=True)
         org = cols[5].get_text(strip=True)
-        arena_score = cols[2].get_text(strip=True)
+        arena_score = cols[2].get_text(strip=True).replace("Preliminary", "").strip()
 
         csvwriter.writerow([name, org, arena_score])

@@ -1,11 +1,6 @@
-{
-    "glm-4.5v": "glm-4.5v",
-    "DeepSeek R1Distill Qwen32B": "deepseek-r1-distill-qwen-32B"
-}
+name = "o1.12-17"
 
-import re
+from rename import rename
 
-pattern = r"deepseek.*r1.*distill.*qwen"
-text = "DeepSeek R1Distill Qwen32B"
-
-print(re.match(pattern, text, re.IGNORECASE))
+a = rename(name)
+print(a)

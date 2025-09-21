@@ -2,7 +2,7 @@
 
 # 大语言模型综合排行榜
 
-![](25-09-14/zh.png)
+![](25-09-21/zh.png)
 
 本表格汇总了常用大语言模型在主流评测排行榜上的表现。评测范围涵盖：
 
@@ -91,6 +91,8 @@ SWE-Bench 是一个用于评估大型语言模型在真实软件工程场景中�
 <!-- [SimpleQA](https://www.kaggle.com/benchmarks/openai/simpleqa) -->
 
 <!-- IFEval -->
+
+<!-- ### agent 调用 -->
 
 <!-- ### 多模态能力
 

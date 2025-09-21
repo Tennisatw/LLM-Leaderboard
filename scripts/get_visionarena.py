@@ -25,6 +25,6 @@ with open("leaderboards/leaderboard_visionarena.csv", "w", newline="", encoding=
     for row in rows:
         cols = row.find_all("td")
         name = cols[1].get_text(strip=True)
-        arena_score = cols[2].get_text(strip=True)
+        arena_score = cols[2].get_text(strip=True).replace("Preliminary", "").strip()
 
         csvwriter.writerow([name, arena_score])

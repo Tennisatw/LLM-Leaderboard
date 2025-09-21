@@ -25,6 +25,7 @@ REPLACE = {
     "metallama": "llama",
     "nvidiallama": "llama",
     "metacodellama": "code-llama",
+    "minimaxminimax": "minimax",
     "openchatopenchat": "openchat",
     "rwkvrwkv": "rwkv",
     "snowflakesnowflake": "snowflake",
@@ -32,26 +33,26 @@ REPLACE = {
 
 CATALOG = [
     # ---------- OpenAI: GPT 5 / 4.x / 4o / 4v ----------
-    {"family": "gpt-5",           "aliases": [r"gpt[^\d]*5(?![\d\.])"]},
-    {"family": "gpt-4.5",         "aliases": [r"gpt.*4\.?5(?!\d)"]},
-    {"family": "gpt-4.1",         "aliases": [r"gpt.*4\.?1(?!\d)"]},
-    {"family": "gpt-4-turbo",     "aliases": [r"gpt.*4(?![\d\.]).*turbo"]},
-    {"family": "gpt-4o",          "aliases": [r"gpt.*4o(?![\d\.])"]},
-    {"family": "gpt-4v",          "aliases": [r"gpt.*4v(?:\s*\(ision\))?"]},
-    {"family": "gpt-4",           "aliases": [r"gpt[^\d]*4(?![\d\.])"]},
-    {"family": "gpt-3.5-turbo",   "aliases": [r"gpt.*3\.?5(?![\d\.]).*turbo"]},
-    {"family": "gpt-3.5",         "aliases": [r"gpt.*3\.?5(?!\d)"]},
+    {"family": "gpt-5",          "aliases": [r"gpt[^\d]*5(?![\d\.])"]},
+    {"family": "gpt-4.5",        "aliases": [r"gpt.*4\.?5(?!\d)"]},
+    {"family": "gpt-4.1",        "aliases": [r"gpt.*4\.?1(?!\d)"]},
+    {"family": "gpt-4-turbo",    "aliases": [r"gpt.*4(?![\d\.]).*turbo"]},
+    {"family": "gpt-4o",         "aliases": [r"gpt.*4o(?![\d\.])"]},
+    {"family": "gpt-4v",         "aliases": [r"gpt.*4v(?:\s*\(ision\))?"]},
+    {"family": "gpt-4",          "aliases": [r"gpt[^\d]*4(?![\d\.])"]},
+    {"family": "gpt-3.5-turbo",  "aliases": [r"gpt.*3\.?5(?![\d\.]).*turbo"]},
+    {"family": "gpt-3.5",        "aliases": [r"gpt.*3\.?5(?!\d)"]},
 
-    {"family": "o4",              "aliases": [r"\bo4(?![\d\.])"]},
-    {"family": "o3",              "aliases": [r"\bo3(?![\d\.])"]},
-    {"family": "o1",              "aliases": [r"\bo1(?![\d\.])"]},
+    {"family": "o4",             "aliases": [r"\bo4(?![\d\.])"]},
+    {"family": "o3",             "aliases": [r"\bo3(?![\d\.])"]},
+    {"family": "o1",             "aliases": [r"\bo1(?![\d\.])"]},
 
-    {"family": "gpt-oss",         "aliases": [r"gpt.*oss"]},
+    {"family": "gpt-oss",        "aliases": [r"gpt.*oss"]},
 
     # ---------- xAI Grok ----------
-    {"family": "grok-4",          "aliases": [r"grok.*4(?![\d\.])"]},
-    {"family": "grok-3",          "aliases": [r"grok.*3(?![\d\.])"]},
-    {"family": "grok-2",          "aliases": [r"grok.*2(?![\d\.])"]},
+    {"family": "grok-4",         "aliases": [r"grok.*4(?![\d\.])"]},
+    {"family": "grok-3",         "aliases": [r"grok.*3(?![\d\.])"]},
+    {"family": "grok-2",         "aliases": [r"grok.*2(?![\d\.])"]},
 
 
     # ---------- Google Gemini ----------
@@ -98,10 +99,10 @@ CATALOG = [
     # ---------- DeepSeek ----------
     {"family": "deepseek-r1-distill-qwen",     "aliases": [r"deepseek.*r1.*distill.*qwen"]},
     {"family": "deepseek-r1-distill-llama",    "aliases": [r"deepseek.*r1.*distill.*llama"]},
-    {"family": "deepseek-r1",    "aliases": [r"deepseek.*r1"]},
-    {"family": "deepseek-v3.1",  "aliases": [r"deepseek.*v3\.?1(?!\d)"]},
-    {"family": "deepseek-v3",    "aliases": [r"deepseek.*v3(?![\d\.])"]},
-    {"family": "deepseek-v2.5",  "aliases": [r"deepseek.*v2\.?5(?!\d)"]},
+    {"family": "deepseek-r1",     "aliases": [r"deepseek.*r1"]},
+    {"family": "deepseek-v3.1",   "aliases": [r"deepseek.*v3\.?1(?!\d)"]},
+    {"family": "deepseek-v3",     "aliases": [r"deepseek.*v3(?![\d\.])"]},
+    {"family": "deepseek-v2.5",   "aliases": [r"deepseek.*v2\.?5(?!\d)"]},
 
     # ---------- Meta Llama / NVIDIA Nemotron ----------
     {"family": "llama-4-maverick","aliases": [r"llama.*4(?![\d\.]).*maverick"]},
@@ -118,11 +119,18 @@ CATALOG = [
     {"family": "nvlm-d",          "aliases": [r"\bnvlm.*d\b"]},
     {"family": "nvila",           "aliases": [r"\bnvila\b"]},
 
-    # ---------- Mistral (and tolerant “Magistral” typos) ----------
-    {"family": "mistral-large",   "aliases": [r"\b(?:mistral|magistral).*large"]},
-    {"family": "mistral-medium",  "aliases": [r"\b(?:mistral|magistral).*medium"]},
-    {"family": "mistral-small",   "aliases": [r"\b(?:mistral|magistral).*small"]},
-    {"family": "mistral",         "aliases": [r"\b(?:mistral|magistral)\b"]},
+    # ---------- Mistral ----------
+    {"family": "magistral-large", "aliases": [r"\bmagistral.*large"]},
+    {"family": "magistral-medium","aliases": [r"\bmagistral.*medium"]},
+    {"family": "magistral-small", "aliases": [r"\bmagistral.*small"]},
+    {"family": "magistral",       "aliases": [r"\bmagistral\b"]},
+    {"family": "ministral",       "aliases": [r"\bministral\b"]},
+    {"family": "mixtral",         "aliases": [r"\bmixtral\b"]},
+    {"family": "pixtral",         "aliases": [r"\bpixtral\b"]},
+    {"family": "mistral-large",   "aliases": [r"\bmistral.*large"]},
+    {"family": "mistral-medium",  "aliases": [r"\bmistral.*medium"]},
+    {"family": "mistral-small",   "aliases": [r"\bmistral.*small"]},
+    {"family": "mistral",         "aliases": [r"\bmistral\b"]},
 
     # ---------- MiniMax ----------
     {"family": "minimax-m1",      "aliases": [r"(?:mini\s*max|minimax).*m1(?![\d\.])"]},
@@ -132,7 +140,7 @@ CATALOG = [
     {"family": "kimi-k2",         "aliases": [r"(?:moonshotai.*kimi|kimi).*k2(?![\d\.])"]},
 
     # ---------- Tencent Hunyuan ----------
-    {"family": "hunyuan-turbo-s",  "aliases": [r"hunyuan.*turbo.*s"]},
+    {"family": "hunyuan-turbo-s", "aliases": [r"hunyuan.*turbo.*s"]},
     {"family": "hunyuan-turbo",   "aliases": [r"hunyuan.*turbo(?![\d])"]},
     {"family": "hunyuan-large",   "aliases": [r"hunyuan.*large"]},
     {"family": "hunyuan-standard","aliases": [r"hunyuan.*standard"]},
@@ -211,6 +219,7 @@ TIER_MAP = {
     "mini": "mini", "minimal": "mini",
     "small": "small",
     "flash": "flash",
+    "fast": "fast",
     # "flash-lite": "flash-lite", "flashlite": "flash-lite",
     "lite": "lite",
 
@@ -253,5 +262,6 @@ DATE_TRAILERS = [
     re.compile(r"-\d{4}$"),                # "Strip trailing '-NNNN' (e.g., '-0528', '-0711')"
     re.compile(r"\([\w\s'/-]+\)$"),        # "Strip trailing parentheses containing dates or qualifiers (e.g., '(May'25)', '(10/22)')"
     re.compile(r"-20\d{6}"),               # "Strip '-YYYYMMDD'"
+    re.compile(r"\.\d{2}-\d{2}"),          # "Strip '.MM-DD'"
     re.compile(r"-\d{4}"),                 # "Strip '-NNNN'"
 ]
