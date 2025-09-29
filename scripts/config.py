@@ -33,6 +33,7 @@ REPLACE = {
 
 CATALOG = [
     # ---------- OpenAI: GPT 5 / 4.x / 4o / 4v ----------
+    # {"family": "gpt-5-codex",    "aliases": [r"gpt[^\d]*5(?![\d\.]).*codex"]},
     {"family": "gpt-5",          "aliases": [r"gpt[^\d]*5(?![\d\.])"]},
     {"family": "gpt-4.5",        "aliases": [r"gpt.*4\.?5(?!\d)"]},
     {"family": "gpt-4.1",        "aliases": [r"gpt.*4\.?1(?!\d)"]},
@@ -82,6 +83,7 @@ CATALOG = [
 
     # ---------- Alibaba Qwen ----------
     {"family": "qwen3-coder",     "aliases": [r"qwen.*3(?![\d\.]).*coder"]},
+    {"family": "qwen3-max",       "aliases": [r"qwen.*3(?![\d\.]).*max"]},
     {"family": "qwen3",           "aliases": [r"qwen[^\d]*3(?![\d\.])"]},
     {"family": "qwen2.5",         "aliases": [r"qwen.*2\.?5(?!\d)"]},
     {"family": "qwen2",           "aliases": [r"qwen[^\d]*2(?![\d\.]|\.?5)"]},

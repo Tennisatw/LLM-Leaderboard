@@ -1,4 +1,4 @@
-大语言模型综合排行榜-250914
+大语言模型综合排行榜-250921
 
 简介：
 本表格汇总了常用大语言模型在主流评测排行榜上的表现。评测范围涵盖：
@@ -18,7 +18,7 @@
 
 <br>
 
-LLM Composite Rankings–250914
+LLM Composite Rankings–250921
 
 Overview:
 This table summarizes the performance of commonly used large language models across major benchmark rankings. The evaluation covers: Human preference (text and vision), Knowledge and reasoning, Mathematical ability, Coding ability, Long-context reasoning.
