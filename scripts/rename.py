@@ -72,10 +72,3 @@ def rename(raw: str, catalog=CATALOG):
     canonical = "-".join(p for p in parts if p)
     canonical = re.sub(r"-{2,}", "-", canonical)
     return canonical
-
-# print(rename('Claude 3.7 Sonnet [R]'))
-
-# gpt-4-1106-preview
-# gemma-3n-e4b-it
-# Llama 3.2 1B
-# Qwen3 0.7b

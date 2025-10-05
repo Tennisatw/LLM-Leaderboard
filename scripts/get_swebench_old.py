@@ -2,7 +2,7 @@ from email import message_from_binary_file, policy
 from bs4 import BeautifulSoup
 import csv
 
-file_path = "pages/SWE-bench.mhtml"
+file_path = "pages/Best LLM for Coding.mhtml"
 with open(file_path, "rb") as f:
     msg = message_from_binary_file(f, policy=policy.default)
 
@@ -15,14 +15,15 @@ if html is None:
     raise ValueError("No HTML part found in the MHTML file.")
 
 soup = BeautifulSoup(html, "html.parser")
-table = soup.find("div", {"class": "bg-white overflow-x-auto md:overflow-x-hidden"})
-rows = table.find_all("div", {"class": "transition-all"})
+table = soup.find("div", {"class": "graph_tablet-collection w-dyn-list"})
+rows = table.find_all("div", {"class": "comparison_table-content"})
+
 with open("leaderboards/leaderboard_swebench.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Name", "Score"])
     for row in rows:
-        ps = row.find_all("p")
-        name = ps[1].get_text(strip=True)
-        score = ps[2].get_text(strip=True).split("%")[0]
+        entries = row.find_all("div", {"class": "comparison_table-head"})
+        name = entries[0].get_text(strip=True)
+        score = entries[3].get_text(strip=True).split("%")[0]
 
         csvwriter.writerow([name, score])

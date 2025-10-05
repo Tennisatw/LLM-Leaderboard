@@ -2,11 +2,11 @@
 
 # LLM Composite Rankings
 
-![](25-09-28/en.png)
+![](25-10-05/en.png)
 
 This chart compiles the performance of commonly used large language models across major benchmark leaderboards. Evaluation categories include:
 
-Human preference (text & vision), Knowledge and reasoning, Mathematical ability, Coding capability, and Long-context reasoning
+Human preference (text & vision), Knowledge and reasoning, Mathematical ability, Coding capability, Long-context reasoning, and Instruction following.
 
 Based on the aggregated results from these evaluations, an overall ranking is produced.
 
@@ -82,8 +82,8 @@ Designed to assess a model’s ability to analyze and reason across **very long 
 
 <br>
 
-<!-- ### Multimodal Ability
+### Instruction Following
 
-[MMMU](https://mmmu-benchmark.github.io/)
+[IFBench](https://github.com/allenai/IFBench)
 
-A large-scale, interdisciplinary benchmark focused on assessing a model’s ability to reason across text and image modalities. It covers a wide variety of academic topics and real-world scenarios. -->
+IFBench is a benchmark for evaluating a language model's ability to **precisely follow verifiable instructions**.

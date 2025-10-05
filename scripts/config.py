@@ -4,15 +4,18 @@
 REPLACE = {
     "no-thinking": "",
     "w/o thinking": "",
-    "4-1": "4.1",
-    "3-7": "3.7",
-    "3-5": "3.5",
+    "thinking": "",
+    "reasoning": "",
+    "deepthinking": "",
+    "[r]": "reasoning",
+    # "4-1": "4.1",
+    # "3-7": "3.7",
+    # "3-5": "3.5",
     "-preview": "", 
     "-prerelease": "",
     "-beta": "",
     "-chat": "",
     "distill ": "distill",
-    "[r]": "reasoning",
     "openai": "",
     "azurephi": "phi",
     "azurewizardlm": "wizardlm",
@@ -35,14 +38,14 @@ CATALOG = [
     # ---------- OpenAI: GPT 5 / 4.x / 4o / 4v ----------
     # {"family": "gpt-5-codex",    "aliases": [r"gpt[^\d]*5(?![\d\.]).*codex"]},
     {"family": "gpt-5",          "aliases": [r"gpt[^\d]*5(?![\d\.])"]},
-    {"family": "gpt-4.5",        "aliases": [r"gpt.*4\.?5(?!\d)"]},
-    {"family": "gpt-4.1",        "aliases": [r"gpt.*4\.?1(?!\d)"]},
+    {"family": "gpt-4.5",        "aliases": [r"gpt.*4[.\-]?5(?!\d)"]},
+    {"family": "gpt-4.1",        "aliases": [r"gpt.*4[.\-]?1(?!\d)"]},
     {"family": "gpt-4-turbo",    "aliases": [r"gpt.*4(?![\d\.]).*turbo"]},
     {"family": "gpt-4o",         "aliases": [r"gpt.*4o(?![\d\.])"]},
     {"family": "gpt-4v",         "aliases": [r"gpt.*4v(?:\s*\(ision\))?"]},
     {"family": "gpt-4",          "aliases": [r"gpt[^\d]*4(?![\d\.])"]},
-    {"family": "gpt-3.5-turbo",  "aliases": [r"gpt.*3\.?5(?![\d\.]).*turbo"]},
-    {"family": "gpt-3.5",        "aliases": [r"gpt.*3\.?5(?!\d)"]},
+    {"family": "gpt-3.5-turbo",  "aliases": [r"gpt.*3[.\-]?5(?![\d\.]).*turbo"]},
+    {"family": "gpt-3.5",        "aliases": [r"gpt.*3[.\-]?5(?!\d)"]},
 
     {"family": "o4",             "aliases": [r"\bo4(?![\d\.])"]},
     {"family": "o3",             "aliases": [r"\bo3(?![\d\.])"]},
@@ -57,62 +60,65 @@ CATALOG = [
 
 
     # ---------- Google Gemini ----------
-    {"family": "gemini-2.5",     "aliases": [r"gemini.*2\.?5(?!\d)"]},
-    {"family": "gemini-2.0",     "aliases": [r"gemini.*2\.?0(?!\d)"]},
-    {"family": "gemini-1.5",     "aliases": [r"gemini.*1\.?5(?!\d)"]},
-    {"family": "gemini-1.0",     "aliases": [r"gemini.*1\.?0(?!\d)"]},
+    {"family": "gemini-2.5",     "aliases": [r"gemini.*2[.\-]?5(?!\d)"]},
+    {"family": "gemini-2.0",     "aliases": [r"gemini.*2[.\-]?0(?!\d)"]},
+    {"family": "gemini-1.5",     "aliases": [r"gemini.*1[.\-]?5(?!\d)"]},
+    {"family": "gemini-1.0",     "aliases": [r"gemini.*1[.\-]?0(?!\d)"]},
     {"family": "gemini-advanced","aliases": [r"gemini.*advanced"]},
 
     {"family": "gemma-3",        "aliases": [r"gemma[^\d]*3(?![\d\.])"]},
     {"family": "gemma-2",        "aliases": [r"gemma[^\d]*2(?![\d\.])"]},
-    {"family": "gemma-1.1",      "aliases": [r"gemma[^\d]*1\.?1(?![\d\.])"]},
+    {"family": "gemma-1.1",      "aliases": [r"gemma[^\d]*1[.\-]?1(?![\d\.])"]},
 
     # ---------- Anthropic Claude ----------
-    {"family": "claude-opus-4.1",    "aliases": [r"claude.*opus.*4\.?1(?!\d)", r"claude.*4\.?1(?!\d).*opus"]},
+    {"family": "claude-sonnet-4.5",  "aliases": [r"claude.*sonnet.*4[.\-]?5(?!\d)", r"claude.*4[.\-]?5(?!\d).*sonnet"]},
+    {"family": "claude-opus-4.1",    "aliases": [r"claude.*opus.*4[.\-]?1(?!\d)", r"claude.*4[.\-]?1(?!\d).*opus"]},
     {"family": "claude-opus-4",      "aliases": [r"claude.*opus[^\d]*4(?![\d\.])", r"claude[^\d]*4(?![\d\.]).*opus"]},
     {"family": "claude-sonnet-4",    "aliases": [r"claude.*sonnet.*4(?![\d\.])", r"claude.*4(?![\d\.]).*sonnet"]},
 
-    {"family": "claude-3.7-sonnet",  "aliases": [r"claude.*3\.?7(?!\d).*sonnet", r"claude.*sonnet.*3\.?7(?!\d)"]},
-    {"family": "claude-3.5-sonnet",  "aliases": [r"claude.*3\.?5(?!\d).*sonnet", r"claude.*sonnet.*3\.?5(?!\d)"]},
-    {"family": "claude-3.5-haiku",   "aliases": [r"claude.*3\.?5(?!\d).*haiku", r"claude.*haiku.*3\.?5(?!\d)"]},
+    {"family": "claude-3.7-sonnet",  "aliases": [r"claude.*3[.\-]?7(?!\d).*sonnet", r"claude.*sonnet.*3[.\-]?7(?!\d)"]},
+    {"family": "claude-3.5-sonnet",  "aliases": [r"claude.*3[.\-]?5(?!\d).*sonnet", r"claude.*sonnet.*3[.\-]?5(?!\d)"]},
+    {"family": "claude-3.5-haiku",   "aliases": [r"claude.*3[.\-]?5(?!\d).*haiku", r"claude.*haiku.*3[.\-]?5(?!\d)"]},
     {"family": "claude-3-opus",      "aliases": [r"claude[^\d]*3(?![\d\.]).*opus", r"claude.*opus[^\d]*3(?![\d\.])"]},
     {"family": "claude-3-sonnet",    "aliases": [r"claude[^\d]*3(?![\d\.]).*sonnet", r"claude.*sonnet[^\d]*3(?![\d\.])"]},
     {"family": "claude-3-haiku",     "aliases": [r"claude[^\d]*3(?![\d\.]).*haiku", r"claude.*haiku[^\d]*3(?![\d\.])"]},
-    {"family": "claude-2.1",         "aliases": [r"claude*2\.?1(?![\d\.])"]},
-    {"family": "claude-2.0",         "aliases": [r"claude*2\.?0(?![\d\.])"]},
+    {"family": "claude-2.1",         "aliases": [r"claude*2[.\-]?1(?![\d\.])"]},
+    {"family": "claude-2.0",         "aliases": [r"claude*2[.\-]?0(?![\d\.])"]},
 
     # ---------- Alibaba Qwen ----------
     {"family": "qwen3-coder",     "aliases": [r"qwen.*3(?![\d\.]).*coder"]},
     {"family": "qwen3-max",       "aliases": [r"qwen.*3(?![\d\.]).*max"]},
     {"family": "qwen3",           "aliases": [r"qwen[^\d]*3(?![\d\.])"]},
-    {"family": "qwen2.5",         "aliases": [r"qwen.*2\.?5(?!\d)"]},
-    {"family": "qwen2",           "aliases": [r"qwen[^\d]*2(?![\d\.]|\.?5)"]},
+    {"family": "qwen2.5",         "aliases": [r"qwen.*2[.\-]?5(?!\d)"]},
+    {"family": "qwen2",           "aliases": [r"qwen[^\d]*2(?![\d\.]|[.\-]?5)"]},
     {"family": "qwen",            "aliases": [r"qwen(?!\d)", r"qwen[^\d]*vl"]},
 
     {"family": "qwq",             "aliases": [r"\bqwq\b"]},
     {"family": "qvq",             "aliases": [r"\bqvq\b"]},
 
     # ---------- Zhipu GLM ----------
-    {"family": "glm-4.5v",        "aliases": [r"glm.*4\.?5(?!\d)v"]},
-    {"family": "glm-4.5",         "aliases": [r"glm.*4\.?5(?!\d)"]},
-    {"family": "glm-4.1",         "aliases": [r"glm.*4\.?1(?!\d)"]},
+    {"family": "glm-4.6",         "aliases": [r"glm.*4[.\-]?6(?!\d)"]},
+    {"family": "glm-4.5v",        "aliases": [r"glm.*4[.\-]?5(?!\d)v"]},
+    {"family": "glm-4.5",         "aliases": [r"glm.*4[.\-]?5(?!\d)"]},
+    {"family": "glm-4.1",         "aliases": [r"glm.*4[.\-]?1(?!\d)"]},
     {"family": "glm-4",           "aliases": [r"glm[^\d]*4(?![\d\.])"]},
 
     # ---------- DeepSeek ----------
     {"family": "deepseek-r1-distill-qwen",     "aliases": [r"deepseek.*r1.*distill.*qwen"]},
     {"family": "deepseek-r1-distill-llama",    "aliases": [r"deepseek.*r1.*distill.*llama"]},
     {"family": "deepseek-r1",     "aliases": [r"deepseek.*r1"]},
-    {"family": "deepseek-v3.1",   "aliases": [r"deepseek.*v3\.?1(?!\d)"]},
+    {"family": "deepseek-v3.2",   "aliases": [r"deepseek.*v3[.\-]?2(?!\d)"]},
+    {"family": "deepseek-v3.1",   "aliases": [r"deepseek.*v3[.\-]?1(?!\d)"]},
     {"family": "deepseek-v3",     "aliases": [r"deepseek.*v3(?![\d\.])"]},
-    {"family": "deepseek-v2.5",   "aliases": [r"deepseek.*v2\.?5(?!\d)"]},
+    {"family": "deepseek-v2.5",   "aliases": [r"deepseek.*v2[.\-]?5(?!\d)"]},
 
     # ---------- Meta Llama / NVIDIA Nemotron ----------
     {"family": "llama-4-maverick","aliases": [r"llama.*4(?![\d\.]).*maverick"]},
     {"family": "llama-4-scout",   "aliases": [r"llama.*4(?![\d\.]).*scout"]},
     {"family": "llama-4-behemoth","aliases": [r"llama.*4(?![\d\.]).*behemoth"]},
-    {"family": "llama-3.3",       "aliases": [r"llama.*3\.?3(?!\d)"]},
-    {"family": "llama-3.2",       "aliases": [r"llama.*3\.?2(?!\d)"]},
-    {"family": "llama-3.1",       "aliases": [r"llama.*3\.?1(?!\d)"]},
+    {"family": "llama-3.3",       "aliases": [r"llama.*3[.\-]?3(?!\d)"]},
+    {"family": "llama-3.2",       "aliases": [r"llama.*3[.\-]?2(?!\d)"]},
+    {"family": "llama-3.1",       "aliases": [r"llama.*3[.\-]?1(?!\d)"]},
     {"family": "llama-3",         "aliases": [r"llama.*3(?![\d\.])"]},
     {"family": "llama-2",         "aliases": [r"llama.*2(?![\d\.])"]},
 
@@ -176,20 +182,20 @@ CATALOG = [
     {"family": "reka-flash",      "aliases": [r"reka.*flash(?![\d])"]},
 
     # ---------- EXAONE / Phi / Tulu ----------
-    {"family": "exaone-4.0",      "aliases": [r"exaone.*4\.?0(?!\d)"]},
+    {"family": "exaone-4.0",      "aliases": [r"exaone.*4[.\-]?0(?!\d)"]},
     {"family": "phi-4",           "aliases": [r"phi.*4(?![\d\.])"]},
     {"family": "phi-3",           "aliases": [r"phi.*3(?![\d\.])"]},
     {"family": "tulu-3",          "aliases": [r"tulu.*3(?![\d\.])"]},
     {"family": "tulu-2",          "aliases": [r"tulu.*2(?![\d\.])"]},
 
     # ---------- Seed / Dots / Intern ----------
-    {"family": "seed-1.6",        "aliases": [r"seed.*1\.?6(?!\d)"]},
-    {"family": "seed-1.5-vl",     "aliases": [r"seed.*1\.?5(?!\d).*vl"]},
+    {"family": "seed-1.6",        "aliases": [r"seed.*1[.\-]?6(?!\d)"]},
+    {"family": "seed-1.5-vl",     "aliases": [r"seed.*1[.\-]?5(?!\d).*vl"]},
     {"family": "dots-vlm1",       "aliases": [r"dots.*vlm?1"]},
     {"family": "intern-s1",       "aliases": [r"intern.*s1"]},
     {"family": "internvl3",       "aliases": [r"internvl.*3(?![\d\.])"]},
     {"family": "internvl2-llama3", "aliases": [r"internvl.*2.*llama.*3(?![\d\.]).*76b"]},
-    {"family": "internvl2.5",     "aliases": [r"internvl.*2\.?5(?!\d)"]},
+    {"family": "internvl2.5",     "aliases": [r"internvl.*2[.\-]?5(?!\d)"]},
     {"family": "internvl2",       "aliases": [r"internvl.*2(?![\d\.])"]},
 
     # ---------- Misc remaining names ----------
@@ -197,7 +203,7 @@ CATALOG = [
     {"family": "aria",            "aliases": [r"aria"]},
     {"family": "athene-v2",       "aliases": [r"athene.*v2"]},
     {"family": "athene",          "aliases": [r"athene"]},
-    {"family": "eagle-2.5",       "aliases": [r"eagle.*2\.?5(?!\d)"]},
+    {"family": "eagle-2.5",       "aliases": [r"eagle.*2[.\-]?5(?!\d)"]},
     {"family": "emu3",            "aliases": [r"Emu3"]},
     {"family": "evlm-kto",        "aliases": [r"evlm.*kto"]},
     {"family": "hermes",          "aliases": [r"hermes"]},
@@ -207,8 +213,8 @@ CATALOG = [
     {"family": "openchat",        "aliases": [r"openchat"]},
     {"family": "ovis2",           "aliases": [r"ovis.*2.*34B"]},
     {"family": "ovia",            "aliases": [r"ovia"]},
-    {"family": "points-1.5",      "aliases": [r"points.*1\.?5(?!\d)"]},
-    {"family": "rbdash-v1.2",     "aliases": [r"rbdash.*v1\.?2(?!\d)"]},
+    {"family": "points-1.5",      "aliases": [r"points.*1[.\-]?5(?!\d)"]},
+    {"family": "rbdash-v1.2",     "aliases": [r"rbdash.*v1[.\-]?2(?!\d)"]},
     {"family": "sensechat-vision","aliases": [r"sensechat.*vision"]},
     {"family": "spare",           "aliases": [r"spare"]},
     {"family": "telemm",          "aliases": [r"\btelemm\b"]},
@@ -235,10 +241,10 @@ TIER_MAP = {
     "pro": "pro", "professional": "pro",
 
     # cognitive descriptors
-    "thinking": "reasoning", "reasoning": "reasoning",
-    "deepthink": "reasoning", "deepthinking": "reasoning",
-    "wthinking": "reasoning", "withthinking": "reasoning",
-    "instruct": "instruct",
+    # "thinking": "reasoning", "reasoning": "reasoning",
+    # "deepthink": "reasoning", "deepthinking": "reasoning",
+    # "wthinking": "reasoning", "withthinking": "reasoning",
+    # "instruct": "instruct",
 
     # marketing descriptors
     "ultra": "ultra",

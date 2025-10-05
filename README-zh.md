@@ -2,11 +2,11 @@
 
 # 大语言模型综合排行榜
 
-![](25-09-28/zh.png)
+![](25-10-05/zh.png)
 
 本表格汇总了常用大语言模型在主流评测排行榜上的表现。评测范围涵盖：
 
-人类偏好（文字和视觉），知识与推理，数学能力，代码能力，和长文本推理。
+人类偏好（文字和视觉），知识与推理，数学能力，代码能力，长文本推理，和指令遵循能力。
 
 在整合各项评测结果的基础上，计算出综合排名。
 
@@ -21,8 +21,6 @@
 ### 人类偏好
 
 [LLM text arena](https://huggingface.co/spaces/lmarena-ai/lmarena-leaderboard)
-
-<!-- https://lmarena.ai/leaderboard -->
 
 通过真实用户对话投票，评估大语言模型在**综合对话体验**上的表现，包括理解能力、回答质量、逻辑性和互动自然度。分数更新很快。
 
@@ -84,18 +82,8 @@ SWE-Bench 是一个用于评估大型语言模型在真实软件工程场景中�
 
 <br>
 
-<!-- ### 指令遵循? -->
+### 指令遵循
 
-<!-- ### 事实问答？ -->
+[IFBench](https://github.com/allenai/IFBench)
 
-<!-- [SimpleQA](https://www.kaggle.com/benchmarks/openai/simpleqa) -->
-
-<!-- IFEval -->
-
-<!-- ### agent 调用 -->
-
-<!-- ### 多模态能力
-
-[MMMU](https://mmmu-benchmark.github.io/)
-
-一个跨学科、多模态的大规模评测基准，旨在测试大型模型在涵盖文本、图像等多模态输入下的综合理解与推理能力。 -->
+IFBench 是一个用于评估语言模型在“**精确遵循可验证指令**”能力上的基准测试。
