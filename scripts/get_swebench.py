@@ -15,8 +15,8 @@ if html is None:
     raise ValueError("No HTML part found in the MHTML file.")
 
 soup = BeautifulSoup(html, "html.parser")
-table = soup.find("div", {"class": "bg-white overflow-x-auto md:overflow-x-hidden"})
-rows = table.find_all("div", {"class": "transition-all"})
+table = soup.find("div", {"class": "background-primary overflow-x-auto sm:overflow-x-hidden"})
+rows = table.find_all("a")
 with open("leaderboards/leaderboard_swebench.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(["Name", "Score"])

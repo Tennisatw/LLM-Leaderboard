@@ -1,0 +1,275 @@
+Name,Score
+Claude 4.1Opus,88.0
+Claude 4.5Sonnet,87.5
+Claude 4Opus,87.3
+GPT-5(high),87.1
+GPT-5(medium),86.7
+Grok 4,86.6
+GPT-5Codex(high),86.5
+Gemini 2.5Pro,86.2
+GPT-5(low),86.0
+Claude 4.5Sonnet,86.0
+Claude 4 Opus,86.0
+Gemini 2.5Pro (Mar),85.8
+o3,85.3
+DeepSeekV3.1Terminus,85.1
+DeepSeekV3.1,85.1
+DeepSeekV3.2 Exp,85.0
+Grok 4Fast,85.0
+DeepSeekR1 0528,84.9
+DeepSeekR1 (Jan),84.4
+Qwen3 235BA22B 2507,84.3
+Gemini 2.5Flash(Sep),84.2
+Claude 4Sonnet,84.2
+Qwen3 Max,84.1
+o1,84.1
+Qwen3 Max(Preview),83.8
+GPT-5 mini(high),83.7
+Claude 4 Sonnet,83.7
+Gemini 2.5Pro (May),83.7
+Claude 3.7Sonnet,83.7
+Gemini 2.5Flash (Sep),83.6
+DeepSeek V3.2Exp,83.6
+DeepSeek V3.1Terminus,83.6
+GLM-4.5,83.5
+DeepSeek V3.1,83.3
+o4-mini(high),83.2
+Gemini 2.5Flash,83.2
+Hermes 4405B,82.9
+GLM-4.6,82.9
+GPT-5 mini(medium),82.8
+Qwen3 235B 2507,82.8
+Grok 3miniReasoning (high),82.8
+Qwen3 235B,82.8
+LlamaNemotronUltra,82.5
+Qwen3 Next80B A3B,82.4
+Kimi K2,82.4
+GPT-5 (ChatGPT),82.0
+Kimi K2 0905,81.9
+Qwen3 Next 80BA3B,81.9
+DeepSeek V30324,81.9
+EXAONE 4.032B,81.8
+MiniMax M180k,81.6
+MagistralMedium 1.2,81.5
+GLM-4.5-Air,81.5
+Seed-OSS-36B-Instruct,81.5
+LlamaNemotronSuper 49B v1.5,81.4
+Hermes 470B,81.1
+Llama 4Maverick,80.9
+Gemini 2.5Flash,80.9
+gpt-oss-120B(high),80.8
+Gemini 2.5Flash-Lite(Sep),80.8
+MiniMax M140k,80.8
+Qwen3 VL30B A3B,80.7
+GPT-5 (minimal),80.6
+GPT-4.1,80.6
+Solar Pro2,80.5
+Qwen3 30BA3B 2507,80.5
+Gemini 2.0 ProExperimental,80.5
+GPT-4o (Mar),80.3
+Claude 3.7Sonnet,80.3
+o3-mini(high),80.2
+Claude 4.5Haiku,80.0
+Gemini 2.5Flash,80.0
+Grok 3,79.9
+Gemini 2.0FlashThinking exp. (Jan),79.8
+Qwen3 32B,79.8
+Gemini 2.5Flash-Lite(Sep),79.6
+DeepSeekR1 DistillLlama 70B,79.5
+Grok CodeFast 1,79.3
+Qwen3 Omni30B A3B,79.2
+o3-mini,79.1
+GLM-4.5V,78.8
+Qwen3 Coder480B,78.8
+Llama 3.3NemotronSuper 49B,78.5
+GLM-4.6,78.4
+Gemini 2.5Flash,78.3
+Gemini 2.0Flash (exp),78.2
+GPT-4.1 mini,78.1
+GPT-5 nano(high),78.0
+Gemini 2.0Flash,77.9
+Qwen3 30B A3B2507,77.7
+Qwen3 30B,77.7
+ERNIE 4.5 300BA47B,77.6
+GPT-5 mini(minimal),77.5
+Qwen3 14B,77.4
+Apriel-v1.5-15B-Thinker,77.3
+GPT-4o(ChatGPT),77.3
+GPT-5 nano(medium),77.2
+Claude 3.5Sonnet (Oct),77.2
+MagistralSmall 1.2,76.8
+EXAONE 4.0 32B,76.8
+Solar Pro2,76.8
+Qwen3 VL 30BA3B,76.4
+QwQ-32B,76.4
+Qwen2.5 Max,76.2
+Qwen3 235B,76.2
+Claude 4.5Haiku,76.0
+Mistral Medium3,76.0
+MiniMax-Text-01,75.9
+Gemini 2.5Flash-Lite,75.9
+Sonar Pro,75.5
+MagistralMedium 1,75.3
+Llama 4 Scout,75.2
+DeepSeek V3(Dec),75.2
+GLM-4.5V,75.1
+Claude 3.5Sonnet (June),75.1
+Solar Pro 2,75.0
+Gemini 1.5 Pro(Sep),75.0
+Qwen3 VL8B,74.9
+GPT-4o (Nov),74.8
+MagistralSmall 1,74.6
+Qwen3 4B2507,74.3
+Qwen3 8B,74.3
+NVIDIANemotronNano 9B V2,74.2
+o1-mini,74.2
+GPT-4o (May),74.0
+DeepSeekR1 DistillQwen 14B,74.0
+DeepSeekR1 0528Qwen3 8B,73.9
+NVIDIA NemotronNano 9B V2,73.9
+DeepSeekR1 DistillQwen 32B,73.9
+gpt-oss-20B(high),73.6
+Nova Premier,73.3
+Llama 3.1 405B,73.2
+Grok 4 Fast,73.0
+Hermes 4 405B,72.9
+Qwen3 32B,72.7
+Qwen3 Omni 30BA3B,72.5
+Solar Pro 2,72.5
+Gemini 2.0Flash-Lite(Feb),72.4
+Gemini 2.5Flash-Lite,72.4
+Qwen2.5 72B,72.0
+Tulu3 405B,71.6
+Phi-4,71.4
+Llama 3.3 70B,71.3
+Command A,71.2
+Qwen3 30B,71.0
+Grok 2,70.9
+Devstral Medium,70.8
+Qwen3 Coder 30BA3B,70.6
+Grok Beta,70.3
+Pixtral Large,70.1
+Qwen3 VL4B,70.0
+Llama 3.3Nemotron Super49B,69.8
+Mistral Large 2(Nov),69.7
+Qwen2.5Instruct 32B,69.7
+Claude 3 Opus,69.6
+Qwen3 4B,69.6
+GPT-4 Turbo,69.4
+Llama NemotronSuper 49B v1.5,69.2
+Nova Pro,69.1
+Llama 3.1Nemotron 70B,69.0
+Sonar,68.9
+Qwen3 VL 8B,68.6
+Mistral Medium3.1,68.3
+Mistral Large 2(Jul),68.3
+Mistral Small3.2,68.1
+Gemini 1.5Flash (Sep),68.0
+Llama 3.1 70B,67.6
+Qwen3 14B,67.5
+Qwen3 4B 2507,67.2
+Llama 3.2 90B(Vision),67.1
+Gemma 3 27B,66.9
+Reka Flash3,66.9
+Hermes 4 70B,66.4
+Mistral Small3.1,65.9
+GPT-4.1 nano,65.7
+Gemini 1.5 Pro(May),65.7
+Mistral Small 3,65.2
+GPT-4o mini,64.8
+QwQ32B-Preview,64.8
+Qwen3 8B,64.3
+Qwen2.5 Coder32B,63.5
+Qwen3 VL 4B,63.4
+Claude 3.5Haiku,63.4
+Qwen2.5 Turbo,63.3
+Devstral Small(May),63.2
+Granite 4.0 HSmall,62.4
+Devstral Small,62.2
+Qwen2 72B,62.2
+Mistral Saba,61.1
+Gemma 3 12B,59.5
+Nova Lite,59.0
+Exaone 4.01.2B,58.8
+Qwen3 4B,58.6
+Yi-Large,58.6
+DeepHermes 3 -Mistral 24B,58.0
+Claude 3 Sonnet,57.9
+JambaReasoning3B,57.7
+Jamba 1.7 Large,57.7
+Gemma 2 27B,57.5
+Llama 3 70B,57.4
+Gemini 1.5Flash (May),57.4
+Jamba 1.5 Large,57.2
+Hermes 3 -Llama-3.1 70B,57.1
+Qwen3 1.7B,57.0
+Gemini 1.5Flash-8B,56.9
+Jamba 1.6 Large,56.5
+GPT-5 nano(minimal),55.6
+Llama 3.1NemotronNano 4B v1.1,55.6
+DeepSeekR1 DistillLlama 8B,54.3
+Phi-3 Medium14B,54.3
+Mixtral 8x22B,53.7
+Nova Micro,53.1
+Mistral Small(Sep),52.9
+Mistral Large(Feb),51.5
+LFM2 8B A1B,50.5
+Exaone 4.0 1.2B,50.0
+Gemma 2 9B,49.5
+Claude 2.1,49.5
+Mistral Medium,49.1
+Gemma 3n E4B,48.8
+Claude 2.0,48.6
+Phi-4Multimodal,48.5
+Gemma 3n E4B(May),48.3
+Llama 3.1 8B,47.6
+Pixtral 12B,47.3
+Qwen2.5 Coder7B,47.3
+Granite 3.3 8B,46.8
+Phi-4 Mini,46.5
+Llama 3.2 11B(Vision),46.4
+GPT-3.5 Turbo,46.2
+Granite 4.0Micro,44.7
+Codestral (Jan),44.6
+Phi-3 Mini,43.5
+Claude Instant,43.4
+Command-R+(Apr),43.2
+Gemini 1.0 Pro,43.1
+DeepSeek CoderV2 Lite,42.9
+Command-R+,42.7
+LFM 40B,42.5
+Mistral Small(Feb),41.9
+Gemma 3 4B,41.7
+Qwen3 1.7B,41.1
+Llama 2 Chat13B,40.6
+Llama 2 Chat70B,40.6
+Llama 3 8B,40.5
+Mistral NeMo,39.9
+DBRX,39.7
+Ministral 8B,38.9
+Jamba 1.7 Mini,38.8
+Mixtral 8x7B,38.7
+Gemma 3n E2B,37.8
+Aya Expanse 32B,37.7
+Jamba 1.5 Mini,37.1
+Jamba 1.6 Mini,36.7
+DeepHermes 3 -Llama-3.1 8B,36.5
+Llama 3.2 3B,34.7
+Qwen3 0.6B,34.7
+Jamba Instruct,34.3
+Ministral 3B,33.9
+Command-R (Mar),33.8
+Command-R,33.7
+Codestral (May),33.1
+Aya Expanse 8B,31.2
+OpenChat 3.5,31.0
+LFM2 2.6B,29.8
+DeepSeekR1 DistillQwen 1.5B,26.9
+LFM2 1.2B,25.7
+Mistral 7B,24.5
+Qwen3 0.6B,23.1
+Codestral-Mamba,20.9
+Llama 3.2 1B,20.0
+Llama 2 Chat 7B,16.4
+Gemma 3 1B,13.5
+Gemma 3 270M,5.5
