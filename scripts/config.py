@@ -88,6 +88,7 @@ CATALOG = [
     # ---------- Alibaba Qwen ----------
     {"family": "qwen3-coder",     "aliases": [r"qwen.*3(?![\d\.]).*coder"]},
     {"family": "qwen3-max",       "aliases": [r"qwen.*3(?![\d\.]).*max"]},
+    # {"family": "qwen3-vl",        "aliases": [r"qwen.*3(?![\d\.]).*vl"]},
     {"family": "qwen3",           "aliases": [r"qwen[^\d]*3(?![\d\.])"]},
     {"family": "qwen2.5",         "aliases": [r"qwen.*2[.\-]?5(?!\d)"]},
     {"family": "qwen2",           "aliases": [r"qwen[^\d]*2(?![\d\.]|[.\-]?5)"]},
@@ -141,6 +142,7 @@ CATALOG = [
     {"family": "mistral",         "aliases": [r"\bmistral\b"]},
 
     # ---------- MiniMax ----------
+    {"family": "minimax-m2",      "aliases": [r"(?:mini\s*max|minimax).*m2(?![\d\.])"]},
     {"family": "minimax-m1",      "aliases": [r"(?:mini\s*max|minimax).*m1(?![\d\.])"]},
     {"family": "minimax-text-01", "aliases": [r"(?:mini\s*max|minimax).*text.*01"]},
 
@@ -219,6 +221,7 @@ CATALOG = [
     {"family": "spare",           "aliases": [r"spare"]},
     {"family": "telemm",          "aliases": [r"\btelemm\b"]},
     {"family": "yi-Large",        "aliases": [r"Yi-Large"]},
+    {"family": "minicpm-v-2_6",      "aliases": [r"minicpm-v-2_6"]},
 ]
 
 TIER_MAP = {
