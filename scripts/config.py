@@ -4,9 +4,9 @@
 REPLACE = {
     "no-thinking": "",
     "w/o thinking": "",
-    "thinking": "",
-    "reasoning": "",
-    "deepthinking": "",
+    "thinking": "reasoning",
+    "reasoning": "reasoning",
+    "deepthinking": "reasoning",
     "[r]": "reasoning",
     # "4-1": "4.1",
     # "3-7": "3.7",
@@ -244,9 +244,9 @@ TIER_MAP = {
     "pro": "pro", "professional": "pro",
 
     # cognitive descriptors
-    # "thinking": "reasoning", "reasoning": "reasoning",
-    # "deepthink": "reasoning", "deepthinking": "reasoning",
-    # "wthinking": "reasoning", "withthinking": "reasoning",
+    "thinking": "reasoning", "reasoning": "reasoning",
+    "deepthink": "reasoning", "deepthinking": "reasoning",
+    "wthinking": "reasoning", "withthinking": "reasoning",
     # "instruct": "instruct",
 
     # marketing descriptors
