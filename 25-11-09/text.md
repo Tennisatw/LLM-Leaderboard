@@ -33,7 +33,7 @@ https://github.com/Tennisatw/LLM-Leaderboard
 
 <br>
 
-LLM Comprehensive Rankings – Nov 2, 2025
+LLM Comprehensive Rankings – Nov 9, 2025
 
 Top 10 models this week:
 GPT-5
