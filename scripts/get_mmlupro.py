@@ -18,7 +18,15 @@ soup = BeautifulSoup(html, "html.parser")
 graph = soup.find("div", class_="h-80")
 
 # texts = table.get_text("\n", strip=True).split("\n")
-texts = [text.get_text(strip=True) for text in graph.find_all("text")]
+text_element = graph.find_all("text")
+texts = []
+for elem in text_element:
+    text = elem.get_text(strip=True)
+    sibling = elem.find_next_sibling()
+    if sibling and sibling.find(class_="lucide-lightbulb"):
+        text = text + " reasoning"
+    texts.append(text)
+
 model_names = [text for text in texts if not "%" in text][1:]
 values = [text for text in texts if "%" in text]
 

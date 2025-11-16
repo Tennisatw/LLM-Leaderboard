@@ -4,10 +4,10 @@
 REPLACE = {
     "no-thinking": "",
     "w/o thinking": "",
-    "thinking": "reasoning",
-    "reasoning": "reasoning",
-    "deepthinking": "reasoning",
-    "[r]": "reasoning",
+    "thinking": "",
+    "reasoning": "",
+    "deepthinking": "",
+    "[r]": "",
     # "4-1": "4.1",
     # "3-7": "3.7",
     # "3-5": "3.5",
@@ -36,6 +36,7 @@ REPLACE = {
 
 CATALOG = [
     # ---------- OpenAI: GPT 5 / 4.x / 4o / 4v ----------
+    {"family": "gpt-5.1",        "aliases": [r"gpt.*5[.\-]?1(?!\d)"]},
     # {"family": "gpt-5-codex",    "aliases": [r"gpt[^\d]*5(?![\d\.]).*codex"]},
     {"family": "gpt-5",          "aliases": [r"gpt[^\d]*5(?![\d\.])"]},
     {"family": "gpt-4.5",        "aliases": [r"gpt.*4[.\-]?5(?!\d)"]},
