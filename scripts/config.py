@@ -22,6 +22,7 @@ REPLACE = {
     "anthropicclaude": "claude",
     "coherec4ai": "",
     "coherecommand": "command",
+    "doubaoseed": "doubao-seed",
     "huggingfacesmollm": "smollm",
     "huggingfacezephyr": "zephyr",
     "moonshotaikimi": "kimi",
@@ -55,12 +56,14 @@ CATALOG = [
     {"family": "gpt-oss",        "aliases": [r"gpt.*oss"]},
 
     # ---------- xAI Grok ----------
+    {"family": "grok-4.1",       "aliases": [r"grok.*4[.\-]?1(?!\d)"]},
     {"family": "grok-4",         "aliases": [r"grok.*4(?![\d\.])"]},
     {"family": "grok-3",         "aliases": [r"grok.*3(?![\d\.])"]},
     {"family": "grok-2",         "aliases": [r"grok.*2(?![\d\.])"]},
 
 
     # ---------- Google Gemini ----------
+    {"family": "gemini-3",       "aliases": [r"gemini.*3(?![\d\.])"]},
     {"family": "gemini-2.5",     "aliases": [r"gemini.*2[.\-]?5(?!\d)"]},
     {"family": "gemini-2.0",     "aliases": [r"gemini.*2[.\-]?0(?!\d)"]},
     {"family": "gemini-1.5",     "aliases": [r"gemini.*1[.\-]?5(?!\d)"]},
@@ -192,6 +195,7 @@ CATALOG = [
     {"family": "tulu-2",          "aliases": [r"tulu.*2(?![\d\.])"]},
 
     # ---------- Seed / Dots / Intern ----------
+    {"family": "doubao-seed-code", "aliases": [r"seed.*code"]},
     {"family": "seed-1.6",        "aliases": [r"seed.*1[.\-]?6(?!\d)"]},
     {"family": "seed-1.5-vl",     "aliases": [r"seed.*1[.\-]?5(?!\d).*vl"]},
     {"family": "dots-vlm1",       "aliases": [r"dots.*vlm?1"]},
@@ -222,7 +226,7 @@ CATALOG = [
     {"family": "spare",           "aliases": [r"spare"]},
     {"family": "telemm",          "aliases": [r"\btelemm\b"]},
     {"family": "yi-Large",        "aliases": [r"Yi-Large"]},
-    {"family": "minicpm-v-2_6",      "aliases": [r"minicpm-v-2_6"]},
+    {"family": "minicpm-v-2_6",   "aliases": [r"minicpm-v-2_6"]},
 ]
 
 TIER_MAP = {
