@@ -75,6 +75,7 @@ CATALOG = [
     {"family": "gemma-1.1",      "aliases": [r"gemma[^\d]*1[.\-]?1(?![\d\.])"]},
 
     # ---------- Anthropic Claude ----------
+    {"family": "claude-opus-4.5",    "aliases": [r"claude.*opus.*4[.\-]?5(?!\d)", r"claude.*4[.\-]?5(?!\d).*opus"]},
     {"family": "claude-sonnet-4.5",  "aliases": [r"claude.*sonnet.*4[.\-]?5(?!\d)", r"claude.*4[.\-]?5(?!\d).*sonnet"]},
     {"family": "claude-opus-4.1",    "aliases": [r"claude.*opus.*4[.\-]?1(?!\d)", r"claude.*4[.\-]?1(?!\d).*opus"]},
     {"family": "claude-opus-4",      "aliases": [r"claude.*opus[^\d]*4(?![\d\.])", r"claude[^\d]*4(?![\d\.]).*opus"]},
