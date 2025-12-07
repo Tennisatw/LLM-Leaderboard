@@ -37,6 +37,7 @@ REPLACE = {
 
 CATALOG = [
     # ---------- OpenAI: GPT 5 / 4.x / 4o / 4v ----------
+    # {"family": "gpt-5.1-codex",  "aliases": [r"gpt.*5[.\-]?1(?!\d).*codex"]},
     {"family": "gpt-5.1",        "aliases": [r"gpt.*5[.\-]?1(?!\d)"]},
     # {"family": "gpt-5-codex",    "aliases": [r"gpt[^\d]*5(?![\d\.]).*codex"]},
     {"family": "gpt-5",          "aliases": [r"gpt[^\d]*5(?![\d\.])"]},
