@@ -1,0 +1,199 @@
+Name,Score
+GPT-5.2 (xhigh),1428
+Claude Opus 4.5 (Non-reasoning),1399
+Claude Opus 4.5 (Reasoning),1380
+Claude Pro - 4.5 Opus (Extended Thinking),1319
+GPT-5.2 (medium),1308
+Claude 4.5 Sonnet (Non-reasoning),1300
+GPT-5 (high),1276
+Claude 4.5 Sonnet (Reasoning),1259
+GPT-5.1 (high),1212
+GPT-5.2 (Non-reasoning),1204
+GPT-5 Codex (high),1196
+GLM-4.7 (Reasoning),1185
+GLM-4.7 (Non-reasoning),1179
+Gemini 3 Pro Preview (high),1178
+DeepSeek V3.2 (Reasoning),1175
+GPT-5 mini (high),1169
+Gemini 3 Flash Preview (Reasoning),1169
+Gemini 3 Pro Preview (low),1159
+GPT-5.1 Codex (high),1158
+ChatGPT Plus - 5.1 Thinking (Extended Thinking),1149
+Claude 4.5 Haiku (Reasoning),1147
+GPT-5 (low),1140
+Claude 4 Sonnet (Non-reasoning),1139
+Claude 4 Sonnet (Reasoning),1137
+Claude 4.5 Haiku (Non-reasoning),1130
+Gemini 3 Flash Preview (Non-reasoning),1114
+MiMo-V2-Flash (Reasoning),1113
+DeepSeek V3.2 Exp (Non-reasoning),1093
+DeepSeek V3.1 (Non-reasoning),1092
+Claude 3.7 Sonnet (Non-reasoning),1071
+Gemini 2.5 Flash Preview (Sep '25) (Reasoning),1069
+MiniMax-M2.1,1063
+Claude 3.7 Sonnet (Reasoning),1060
+MiMo-V2-Flash (Non-reasoning),1056
+MiniMax-M2,1050
+GLM-4.6 (Reasoning),1038
+Qwen3 Max,1035
+Grok 4.1 Fast (Reasoning),1034
+Perplexity Pro - Labs,1032
+MiniMax M1 80k,1027
+DeepSeek V3.1 Terminus (Reasoning),1020
+GPT-5 mini (medium),1019
+Doubao Seed Code,1018
+Grok 4 Fast (Reasoning),1017
+o4-mini (high),1017
+DeepSeek V3.2 Exp (Reasoning),1015
+GLM-4.6 (Non-reasoning),1013
+GPT-5.1 Codex mini (high),1010
+GPT-5 (medium),1005
+Kimi K2 Thinking,1002
+GPT-5.1 (Non-reasoning),1000
+Grok 4,987
+DeepSeek V3.1 Terminus (Non-reasoning),978
+Nova 2.0 Pro Preview (medium),975
+Google AI Pro - Thinking with 3 Pro,972
+gpt-oss-120B (high),969
+Qwen3 Max Thinking,957
+Gemini 2.5 Pro,937
+Doubao-Seed-1.8,915
+DeepSeek V3.2 (Non-reasoning),911
+Gemini 2.5 Flash Preview (Sep '25) (Non-reasoning),909
+Mistral Large 3,901
+Devstral 2,893
+gpt-oss-120B (low),889
+K-EXAONE (Reasoning),884
+SuperGrok - Grok 4,882
+Devstral Small 2,879
+Mistral Medium 3.1,864
+K-EXAONE (Non-reasoning),860
+GPT-4.1,858
+Qwen3 235B A22B 2507 (Reasoning),855
+ERNIE 5.0 Thinking Preview,849
+Grok 4.1 Fast (Non-reasoning),847
+Nova 2.0 Omni (medium),839
+KAT-Coder-Pro V1,838
+INTELLECT-3,836
+GPT-5 nano (high),834
+Seed-OSS-36B-Instruct,831
+Qwen3 235B A22B 2507 Instruct,831
+Grok 4 Fast (Non-reasoning),830
+Qwen3 235B A22B (Non-reasoning),822
+Qwen3 235B A22B (Reasoning),817
+Gemini 2.5 Flash (Non-reasoning),812
+Qwen3 Coder 30B A3B Instruct,802
+Qwen3 Next 80B A3B (Reasoning),799
+HyperCLOVA X SEED Think (32B),779
+Devstral Medium,778
+Qwen3 VL 235B A22B (Reasoning),774
+Qwen3 30B A3B 2507 (Reasoning),770
+Ministral 14B (Dec '25),768
+DeepSeek R1 0528 (May '25),767
+Gemini 2.5 Flash (Reasoning),762
+Mi:dm K 2.5 Pro,760
+Magistral Medium 1,759
+Qwen3 VL 4B (Reasoning),759
+Ministral 8B (Dec '25),756
+GLM-4.6V (Non-reasoning),756
+Qwen3 VL 4B Instruct,753
+Qwen3 VL 8B Instruct,753
+GPT-4.1 mini,748
+Grok 3,745
+Qwen3 VL 8B (Reasoning),742
+Nova 2.0 Pro Preview (low),742
+Nova 2.0 Lite (medium),742
+gpt-oss-20B (high),739
+Qwen3 VL 30B A3B (Reasoning),729
+Magistral Medium 1.2,724
+Qwen3 Next 80B A3B Instruct,723
+GLM-4.6V (Reasoning),719
+DeepSeek V3.1 (Reasoning),715
+Qwen3 VL 235B A22B Instruct,712
+GPT-5 nano (medium),709
+Qwen3 4B 2507 (Reasoning),704
+K2-V2 (medium),691
+Gemini 2.0 Flash (Feb '25),691
+NVIDIA Nemotron 3 Nano 30B A3B (Reasoning),685
+Apriel-v1.6-15B-Thinker,681
+GLM-4.5-Air,677
+K2-V2 (high),674
+Devstral Small (Jul '25),671
+gpt-oss-20B (low),669
+Nova 2.0 Lite (low),644
+Qwen3 30B A3B 2507 Instruct,630
+EXAONE 4.0 32B (Reasoning),630
+Nova Premier,629
+Qwen3 Omni 30B A3B (Reasoning),626
+Qwen3 32B (Reasoning),624
+Qwen3 VL 30B A3B Instruct,620
+Qwen3 30B A3B (Reasoning),619
+Ministral 3B (Dec '25),618
+GPT-5 mini (minimal),617
+Qwen3 8B (Non-reasoning),615
+Qwen3 14B (Reasoning),610
+Qwen3 14B (Non-reasoning),609
+Qwen3 Coder 480B A35B Instruct,603
+Solar Pro 2 (Non-reasoning),589
+GLM-4.5V (Non-reasoning),587
+Solar Pro 2 (Reasoning),586
+NVIDIA Nemotron Nano 9B V2 (Reasoning),580
+Gemini 2.5 Flash-Lite Preview (Sep '25) (Reasoning),579
+GLM-4.5 (Reasoning),578
+DeepSeek V3 (Dec '24),567
+DeepSeek V3 0324,561
+Llama 4 Maverick,559
+Grok 3 mini Reasoning (high),557
+Ling-1T,553
+Llama 3.3 Instruct 70B,544
+Nova 2.0 Lite (Non-reasoning),539
+Llama Nemotron Super 49B v1.5 (Non-reasoning),534
+GPT-5 (minimal),533
+Llama Nemotron Super 49B v1.5 (Reasoning),528
+Nova 2.0 Omni (low),522
+Gemini 2.5 Flash-Lite Preview (Sep '25) (Non-reasoning),522
+K2-V2 (low),519
+Nova Lite,511
+Falcon-H1R-7B,505
+Granite 4.0 H Small,501
+Nova 2.0 Pro Preview (Non-reasoning),500
+Qwen3 30B A3B (Non-reasoning),493
+Llama 3.1 Nemotron Instruct 70B,492
+NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning),492
+NVIDIA Nemotron Nano 9B V2 (Non-reasoning),489
+NVIDIA Nemotron Nano 12B v2 VL (Reasoning),483
+Granite 4.0 H 350M,482
+Nova 2.0 Omni (Non-reasoning),482
+GPT-4.1 nano,482
+Kimi K2 0905,479
+EXAONE 4.0 32B (Non-reasoning),478
+Exaone 4.0 1.2B (Non-reasoning),477
+Gemma 3 12B Instruct,475
+Granite 4.0 H 1B,473
+Gemini 2.5 Flash-Lite (Reasoning),472
+Exaone 4.0 1.2B (Reasoning),471
+Qwen3 4B 2507 Instruct,467
+Gemini 2.5 Flash-Lite (Non-reasoning),465
+Llama 4 Scout,464
+Qwen3 0.6B (Non-reasoning),462
+Jamba 1.7 Mini,462
+Gemma 3 27B Instruct,461
+Jamba 1.7 Large,461
+Llama 3.1 Instruct 8B,461
+LFM2 8B A1B,461
+Qwen3 VL 32B Instruct,457
+LFM2 1.2B,454
+Granite 4.0 350M,453
+NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning),452
+Llama 3.1 Instruct 405B,451
+Qwen3 Omni 30B A3B Instruct,451
+Mistral Small 3.2,451
+GPT-5 nano (minimal),446
+Command A,439
+Gemma 3 4B Instruct,438
+Olmo 3 7B Instruct,435
+Granite 4.0 1B,435
+DeepSeek R1 (Jan '25),417
+LFM2 2.6B,406
+Gemma 3n E4B Instruct,398
+Qwen3 1.7B (Non-reasoning),373

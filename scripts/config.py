@@ -8,9 +8,6 @@ REPLACE = {
     "reasoning": "",
     "deepthinking": "",
     "[r]": "",
-    # "4-1": "4.1",
-    # "3-7": "3.7",
-    # "3-5": "3.5",
     "-preview": "", 
     "-prerelease": "",
     "-beta": "",
@@ -37,9 +34,8 @@ REPLACE = {
 
 CATALOG = [
     # ---------- OpenAI: GPT 5 / 4.x / 4o / 4v ----------
-    # {"family": "gpt-5.1-codex",  "aliases": [r"gpt.*5[.\-]?1(?!\d).*codex"]},
+    {"family": "gpt-5.2",        "aliases": [r"gpt.*5[.\-]?2(?!\d)"]},
     {"family": "gpt-5.1",        "aliases": [r"gpt.*5[.\-]?1(?!\d)"]},
-    # {"family": "gpt-5-codex",    "aliases": [r"gpt[^\d]*5(?![\d\.]).*codex"]},
     {"family": "gpt-5",          "aliases": [r"gpt[^\d]*5(?![\d\.])"]},
     {"family": "gpt-4.5",        "aliases": [r"gpt.*4[.\-]?5(?!\d)"]},
     {"family": "gpt-4.1",        "aliases": [r"gpt.*4[.\-]?1(?!\d)"]},
@@ -94,7 +90,6 @@ CATALOG = [
     # ---------- Alibaba Qwen ----------
     {"family": "qwen3-coder",     "aliases": [r"qwen.*3(?![\d\.]).*coder"]},
     {"family": "qwen3-max",       "aliases": [r"qwen.*3(?![\d\.]).*max"]},
-    # {"family": "qwen3-vl",        "aliases": [r"qwen.*3(?![\d\.]).*vl"]},
     {"family": "qwen3",           "aliases": [r"qwen[^\d]*3(?![\d\.])"]},
     {"family": "qwen2.5",         "aliases": [r"qwen.*2[.\-]?5(?!\d)"]},
     {"family": "qwen2",           "aliases": [r"qwen[^\d]*2(?![\d\.]|[.\-]?5)"]},
@@ -104,6 +99,7 @@ CATALOG = [
     {"family": "qvq",             "aliases": [r"\bqvq\b"]},
 
     # ---------- Zhipu GLM ----------
+    {"family": "glm-4.7",         "aliases": [r"glm.*4[.\-]?7(?!\d)"]},
     {"family": "glm-4.6",         "aliases": [r"glm.*4[.\-]?6(?!\d)"]},
     {"family": "glm-4.5v",        "aliases": [r"glm.*4[.\-]?5(?!\d)v"]},
     {"family": "glm-4.5",         "aliases": [r"glm.*4[.\-]?5(?!\d)"]},
@@ -148,6 +144,7 @@ CATALOG = [
     {"family": "mistral",         "aliases": [r"\bmistral\b"]},
 
     # ---------- MiniMax ----------
+    {"family": "minimax-m2.1",      "aliases": [r"(?:mini\s*max|minimax).*m2.1(?![\d\.])"]},
     {"family": "minimax-m2",      "aliases": [r"(?:mini\s*max|minimax).*m2(?![\d\.])"]},
     {"family": "minimax-m1",      "aliases": [r"(?:mini\s*max|minimax).*m1(?![\d\.])"]},
     {"family": "minimax-text-01", "aliases": [r"(?:mini\s*max|minimax).*text.*01"]},
@@ -197,6 +194,7 @@ CATALOG = [
     {"family": "tulu-2",          "aliases": [r"tulu.*2(?![\d\.])"]},
 
     # ---------- Seed / Dots / Intern ----------
+    #{"family": "seed-1.8",        "aliases": [r"seed.*1[.\-]?8(?!\d)"]},
     {"family": "doubao-seed-code", "aliases": [r"seed.*code"]},
     {"family": "seed-1.6",        "aliases": [r"seed.*1[.\-]?6(?!\d)"]},
     {"family": "seed-1.5-vl",     "aliases": [r"seed.*1[.\-]?5(?!\d).*vl"]},
@@ -238,13 +236,7 @@ TIER_MAP = {
     "small": "small",
     "flash": "flash",
     "fast": "fast",
-    # "flash-lite": "flash-lite", "flashlite": "flash-lite",
     "lite": "lite",
-
-    # # high/low descriptors
-    # "high": "high",
-    # "medium": "medium", "mid": "medium", "midlevel": "medium", "mid-level": "medium",
-    # "low": "low", "lo": "low",
 
     # release-type descriptors
     "exp": "exp", "experimental": "exp",
