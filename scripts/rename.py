@@ -10,6 +10,7 @@ def strip_dates(s: str) -> str:
         for pat in DATE_TRAILERS:
             m = pat.search(out)
             if m:
+                # out = out[:m.start()]
                 out = out[:m.start()] + out[m.end():]
                 changed = True
     return out
@@ -23,6 +24,7 @@ def extract_tiers(s: str):
     for k,v in TIER_MAP.items():
         if re.search(rf"{k}", s):
             tiers.append(v)
+    # de-dup, keep stable order
     seen, out = set(), []
     for t in tiers:
         if t not in seen:

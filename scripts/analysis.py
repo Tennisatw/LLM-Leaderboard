@@ -1,68 +1,58 @@
 import pandas as pd
-import numpy as np
 from functools import reduce
 from rename import rename
+from ensemble_rankings import compute_ensemble_rankings
 
-benchmark_list = [
-    "lmarena_text",
-    "terminalbenchhard",
-    "aalcr",
-    "omniscience",
-    "hle",
-    "gpqadiamond",
-    "scicode",
-    "ifbench",
-    "critpt",
-    "mmmupro",
-    "gdpvalaa",
+# Read all raw leaderboards, rename models
+data_list = [
+    'textarena', 
+    'visionarena', 
+    'mmlupro',
+    'gpqadiamond', 
+    'hle', 
+    'aime2025', 
+    'livecodebench', 
+    'swebench', 
+    'aalcr', 
+    'ifbench',
+    'terminalbenchhard'
 ]
-
-"""
-The weighting of all benchmarks in Artificial Analysis strictly adheres to
-Artificial Analysis' official v4 standard
-"""
-index_weights = {
-    "lmarena_text": 0.30,
-    "gdpvalaa": 0.1169,
-    "mmmupro": 0.0581,
-    "terminalbenchhard": 0.1169,
-    "scicode": 0.0581,
-    "aalcr": 0.04375,
-    "omniscience": 0.0875,
-    "ifbench": 0.04375,
-    "hle": 0.0875,
-    "gpqadiamond": 0.04375,
-    "critpt": 0.04375,
-}
-board_weights = index_weights
-
-def weighted_sum_percent(dataframe: pd.DataFrame, board_weights: dict) -> pd.DataFrame:
-    weight_series = pd.Series(board_weights, index=dataframe.columns).astype(float).fillna(0.0)
-    scores = dataframe.astype(float).copy()
-    max_scores = scores.max(axis=0, skipna=True)
-    percent = scores.div(max_scores, axis=1).mul(100.0).fillna(0.0)
-    weighted_score = percent.mul(weight_series, axis=1).sum(axis=1)
-    results = pd.DataFrame({"weighted_score": weighted_score})
-    results["ranking"] = results["weighted_score"].rank(ascending=False, method="min").astype(int)
-    return results.sort_values("ranking")
-
-
 data = {}
-for name in benchmark_list:
-    df = pd.read_csv(f"leaderboards/{name}.csv", usecols=["Name", "Score"])
-    df["Score"] = pd.to_numeric(df["Score"], errors="coerce")
-    df["canonical"] = df["Name"].apply(rename)
-    df = df.sort_values("Score", ascending=False).drop_duplicates("canonical")
-    df = df.rename(columns={"Name": f"{name} Name", "Score": name})
+for name in data_list:
+    df = pd.read_csv(f'leaderboards/leaderboard_{name}.csv', usecols=["Name", "Score"])
+    df['canonical'] = df['Name'].apply(rename)
+    df = df.sort_values('Score', ascending=False).drop_duplicates('canonical')
+
+    df = df.rename(columns={'Name':f'{name} Name', 'Score':f'{name} Score'})
     data[name] = df
 
-df = reduce(lambda l, r: pd.merge(l, r, on="canonical", how="outer"), data.values())
+# Merge all dataframes on 'canonical' column
+df = reduce(lambda l,r: pd.merge(l, r, on='canonical', how='outer'), data.values())
 
-score_columns = benchmark_list
-df_scores = df[["canonical"] + score_columns].copy()
+cols = list(df.columns)
+cols.insert(0, cols.pop(cols.index("canonical")))
+df = df[cols]
 
-ensemble_df = weighted_sum_percent(df_scores.set_index("canonical")[score_columns], board_weights)
-df_out = pd.concat([df_scores.set_index("canonical"), ensemble_df], axis=1).reset_index()
-df_out = df_out.sort_values("ranking")
-df_out.to_excel("LLM_leaderboard.xlsx", index=False)
+df.to_excel('leaderboard_raw.xlsx', index=False)
+
+score_columns = [f'{name} Score' for name in data_list]
+df = df[['canonical'] + score_columns]
+
+# Keep only models that appear in more than 1 leaderboards
+appearance_count = df.notna().sum(axis=1)
+df = df[appearance_count > 2]
+
+# Compute ensemble rankings
+ensemble_df = compute_ensemble_rankings(
+    df[score_columns], 
+    higher_is_better=True, 
+    svd_rank=3, 
+)
+# conbine with original df
+df = pd.concat([df, ensemble_df], axis=1)
+df = df.sort_values('ranking')
+df['ranking'] = df['ranking'].round(4)
+
+# df.to_csv('leaderboard.csv', index=False)
+df.to_excel('leaderboard_full.xlsx', index=False)
 
