@@ -126,6 +126,7 @@ def main() -> None:
     models_value = Path(args.models_file).read_text(encoding="utf-8").strip()
     if not models_value:
         raise SystemExit(f"Empty models list: {args.models_file}")
+    models_value = "?" + models_value.split('?')[1]
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=args.headless)

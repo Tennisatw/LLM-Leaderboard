@@ -2,7 +2,7 @@
 
 # LLM Composite Rankings
 
-![](26-01-20/en.png)
+![](26-02-01/en.png)
 
 This chart compiles the performance of commonly used large language models across major benchmark leaderboards. Evaluation categories include:
 

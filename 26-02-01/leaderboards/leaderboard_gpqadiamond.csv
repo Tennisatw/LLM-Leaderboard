@@ -1,0 +1,362 @@
+Name,Score
+Gemini 3 ProPreview(high) reasoning,90.8
+GPT-5.2(xhigh) reasoning,90.3
+GPT-5.2Codex(xhigh) reasoning,89.9
+Gemini 3Flash reasoning,89.8
+Gemini 3 ProPreview(low) reasoning,88.7
+Kimi K2.5 reasoning,87.9
+Grok 4 reasoning,87.7
+GPT-5.1(high) reasoning,87.3
+DeepSeekV3.2Speciale reasoning,87.1
+Claude Opus4.5 reasoning,86.6
+GPT-5.2(medium) reasoning,86.4
+Qwen3 MaxThinking reasoning,86.1
+GPT-5.1Codex (high) reasoning,86.0
+GLM-4.7 reasoning,85.9
+GPT-5 (high) reasoning,85.4
+Grok 4.1Fast reasoning,85.3
+Grok 4 Fast reasoning,84.7
+MiMo-V2-Flash reasoning,84.6
+o3-pro reasoning,84.5
+Gemini 2.5Pro reasoning,84.4
+GPT-5(medium) reasoning,84.2
+DeepSeekV3.2 reasoning,84.0
+Kimi K2Thinking reasoning,83.8
+GPT-5 Codex(high) reasoning,83.7
+Gemini 2.5Pro (Mar) reasoning,83.6
+Claude 4.5Sonnet reasoning,83.4
+MiniMax-M2.1 reasoning,83.0
+GPT-5 mini(high) reasoning,82.8
+o3 reasoning,82.7
+Gemini 2.5Pro (May) reasoning,82.2
+GPT-5.1Codex mini(high) reasoning,81.3
+DeepSeek R10528 reasoning,81.3
+Gemini 3 Flash,81.2
+ERNIE 4.5 300BA47B,81.1
+Claude Opus 4.5,81.0
+Claude 4.1Opus reasoning,80.9
+GPT-5 (low) reasoning,80.8
+GPT-5 mini(medium) reasoning,80.3
+DeepSeekV3.2 Exp reasoning,79.7
+Claude 4Opus reasoning,79.6
+Gemini 2.5Flash (Sep) reasoning,79.3
+DeepSeekV3.1Terminus reasoning,79.2
+Grok 3 miniReasoning(high) reasoning,79.1
+Qwen3 235BA22B 2507 reasoning,79.0
+Gemini 2.5Flash reasoning,79.0
+Kimi K2.5,78.9
+Nova 2.0 ProPreview(medium) reasoning,78.5
+o4-mini(high) reasoning,78.4
+K-EXAONE reasoning,78.3
+gpt-oss-120B(high) reasoning,78.2
+GLM-4.5 reasoning,78.2
+GLM-4.6 reasoning,78.0
+DeepSeekV3.1 reasoning,77.9
+ERNIE 5.0ThinkingPreview reasoning,77.7
+Claude 4Sonnet reasoning,77.7
+MiniMax-M2 reasoning,77.7
+Qwen3 MaxThinking(Preview) reasoning,77.6
+Ring-1T reasoning,77.4
+o3-mini(high) reasoning,77.3
+Qwen3 VL235B A22B reasoning,77.2
+Claude 3.7Sonnet reasoning,77.2
+Nova 2.0Lite(medium) reasoning,76.8
+Cogito v2.1 reasoning,76.8
+Kimi K2 0905,76.7
+Gemini 2.5 Flash(Sep),76.6
+Kimi K2,76.6
+KAT-Coder-Pro V1,76.4
+Qwen3 Max,76.4
+Doubao SeedCode reasoning,76.4
+Qwen3 Max(Preview),76.4
+INTELLECT-3 reasoning,76.1
+Nova 2.0Omni(medium) reasoning,76.0
+Qwen3 Next80B A3B reasoning,75.9
+NVIDIANemotron 3Nano reasoning,75.7
+Qwen3 235B 2507,75.3
+DeepSeek V3.2,75.1
+Nova 2.0 ProPreview(low) reasoning,75.1
+DeepSeek V3.1Terminus,75.1
+LlamaNemotronSuper 49B v1.5 reasoning,74.8
+o3-mini reasoning,74.8
+o1 reasoning,74.7
+MagistralMedium 1.2 reasoning,73.9
+EXAONE 4.032B reasoning,73.9
+Qwen3 Next 80BA3B,73.8
+DeepSeek V3.2 Exp,73.8
+DeepSeek V3.1,73.5
+GLM-4.5-Air reasoning,73.3
+Apriel-v1.6-15B-Thinker reasoning,73.3
+Qwen3 VL 32B reasoning,73.3
+LlamaNemotronUltra reasoning,72.8
+Claude 4.5 Sonnet,72.7
+Grok CodeFast 1 reasoning,72.7
+Hermes 4405B reasoning,72.7
+Qwen3 Omni30B A3B reasoning,72.6
+Seed-OSS-36B-Instruct reasoning,72.6
+Ring-flash-2.0 reasoning,72.5
+Mi:dm K 2.5Pro Preview reasoning,72.2
+Qwen3 VL 30BA3B reasoning,72.0
+GLM-4.6V reasoning,71.9
+Ling-1T,71.9
+K2 Think V2 reasoning,71.3
+Apriel-v1.5-15B-Thinker reasoning,71.3
+GPT-5.2,71.2
+Qwen3 VL 235BA22B,71.2
+Gemini 2.5Flash-Lite(Sep) reasoning,70.9
+DeepSeek R1(Jan) reasoning,70.8
+Qwen3 30BA3B 2507 reasoning,70.7
+Mi:dm K 2.5Pro reasoning,70.1
+Gemini 2.0FlashThinking exp. (Jan) reasoning,70.1
+Claude 4 Opus,70.1
+Qwen3 235B reasoning,70.0
+Nova 2.0Omni (low) reasoning,69.9
+Hermes 4 70B reasoning,69.9
+Nova 2.0Lite (low) reasoning,69.8
+Gemini 2.5Flash reasoning,69.8
+MiniMax M180k reasoning,69.7
+K-EXAONE,69.5
+Motif-2-12.7B reasoning,69.5
+Qwen3 VL 30B A3B,69.5
+Grok 3,69.3
+Step3 VL 10B reasoning,69.0
+gpt-oss-20B(high) reasoning,68.8
+Solar Pro 2 reasoning,68.7
+GPT-5 mini(minimal),68.7
+GPT-5 (ChatGPT),68.6
+GLM-4.5V reasoning,68.4
+Gemini 2.5 Flash,68.3
+Claude 4 Sonnet,68.3
+MiniMax M140k reasoning,68.2
+K2-V2 (high) reasoning,68.1
+Mistral Large 3,68.0
+MagistralMedium 1 reasoning,67.9
+GPT-5 nano(high) reasoning,67.6
+GPT-5 (minimal),67.3
+gpt-oss-120B(low) reasoning,67.2
+Claude 4.5Haiku reasoning,67.2
+Llama 4 Maverick,67.1
+Qwen3 VL 32B,67.1
+GPT-5 nano(medium) reasoning,67.0
+Qwen3 32B reasoning,66.8
+Qwen3 4B2507 reasoning,66.7
+GPT-4.1,66.6
+GLM-4.7,66.4
+GPT-4.1 mini,66.4
+MagistralSmall 1.2 reasoning,66.3
+Falcon-H1R-7B reasoning,66.1
+Qwen3 30B A3B2507,65.9
+Solar Open100B reasoning,65.7
+Ling-flash-2.0,65.7
+MiMo-V2-Flash,65.6
+Claude 3.7 Sonnet,65.6
+GPT-4o (Mar),65.5
+DeepSeek V3 0324,65.5
+Gemini 2.5Flash-Lite (Sep),65.1
+Claude 4.5 Haiku,64.6
+Llama 3.3NemotronSuper 49B reasoning,64.3
+GPT-5.1,64.3
+MagistralSmall 1 reasoning,64.1
+Grok 4.1 Fast,63.7
+Nova 2.0 ProPreview,63.6
+Gemini 2.0 Flash(exp),63.6
+GLM-4.6,63.2
+EXAONE 4.0 32B,62.8
+Gemini 2.5Flash-Lite reasoning,62.5
+Gemini 2.0 Flash,62.3
+SonarReasoning reasoning,62.3
+Gemini 2.0 ProExperimental,62.2
+Qwen3 Omni 30BA3B,62.0
+Qwen3 Coder 480B,61.8
+Qwen3 30B reasoning,61.6
+HyperCLOVA XSEED Think(32B) reasoning,61.5
+DeepSeek R1Distill Qwen32B reasoning,61.5
+Qwen3 235B,61.3
+DeepSeek R10528 Qwen38B reasoning,61.2
+gpt-oss-20B(low) reasoning,61.1
+Olmo 3 32BThink reasoning,61.0
+Grok 4 Fast,60.6
+Qwen3 14B reasoning,60.4
+Nova 2.0 Lite,60.3
+o1-mini reasoning,60.3
+Claude 3.5 Sonnet(Oct),59.9
+K2-V2(medium) reasoning,59.8
+Devstral 2,59.4
+Gemini 2.5 Flash,59.4
+QwQ-32B reasoning,59.3
+Olmo 3.1 32BThink reasoning,59.1
+Gemini 1.5 Pro(Sep),58.9
+Qwen3 8B reasoning,58.9
+Mistral Medium3.1,58.8
+Llama 4 Scout,58.7
+Qwen2.5 Max,58.7
+GLM-4.7-Flash reasoning,58.1
+Qwen3 VL 8B reasoning,57.9
+Mistral Medium 3,57.8
+Sonar Pro,57.8
+Solar Pro 2 reasoning,57.8
+Phi-4,57.5
+GLM-4.5V,57.3
+Ministral 3 14B,57.2
+NVIDIANemotronNano 12B v2 VL reasoning,57.2
+NVIDIANemotronNano 9B V2 reasoning,57.0
+Nova Premier,56.9
+GLM-4.6V,56.6
+Ling-mini-2.0,56.2
+Solar Pro 2,56.1
+Claude 3.5 Sonnet(June),56.0
+NVIDIA NemotronNano 9B V2,55.7
+DeepSeek V3 (Dec),55.7
+QwQ32B-Preview reasoning,55.7
+Nova 2.0 Omni,55.5
+Solar Pro 2,54.4
+GPT-4o (Nov),54.3
+Gemini 2.0Flash-Lite(Preview),54.2
+K2-V2 (low) reasoning,54.1
+Olmo 3.1 32BInstruct,53.9
+Hermes 4 405B,53.6
+Gemini 2.0Flash-Lite (Feb),53.5
+Qwen3 32B,53.5
+Devstral Small 2,53.2
+Reka Flash 3 reasoning,52.9
+Command A,52.7
+GPT-4o (May),52.6
+Qwen3 4B reasoning,52.2
+GPT-4o (Aug),52.1
+Llama 3.3Nemotron Super49B,51.7
+Qwen3 4B 2507,51.7
+Olmo 3 7BThink reasoning,51.6
+Qwen3 Coder 30BA3B,51.6
+Tulu3 405B,51.6
+Llama 3.1 405B,51.5
+Exaone 4.01.2B reasoning,51.5
+Qwen3 30B,51.5
+GPT-4.1 nano,51.2
+GPT-4o (ChatGPT),51.1
+Grok 2,51.0
+Mistral Small 3.2,50.5
+Pixtral Large,50.5
+Nova Pro,49.9
+Llama 3.3 70B,49.8
+Qwen3 VL 4B reasoning,49.4
+Devstral Medium,49.2
+Hermes 4 70B,49.1
+Qwen2.5 72B,49.1
+Claude 3 Opus,48.9
+Mistral Large 2(Nov),48.6
+DeepSeek R1Distill Qwen14B reasoning,48.4
+Llama NemotronSuper 49B v1.5,48.1
+Gemini 2.5Flash-Lite,47.4
+Mistral Large 2(Jul),47.2
+Ministral 3 8B,47.1
+Sonar,47.1
+Grok Beta,47.1
+Qwen3 14B,47.0
+Qwen2.5 Instruct32B,46.6
+Llama 3.1Nemotron 70B,46.5
+Gemini 1.5 Flash(Sep),46.3
+Mistral Small 3,46.2
+Mistral Small 3.1,45.4
+GLM-4.7-Flash,45.2
+Qwen3 8B,45.2
+NVIDIA NemotronNano 12B v2 VL,43.9
+Devstral Small(May),43.4
+Nova Lite,43.3
+Llama 3.2 90B(Vision),43.2
+Gemma 3 27B,42.8
+GPT-5 nano(minimal),42.8
+Qwen3 VL 8B,42.7
+Jamba 1.5 Large,42.7
+GPT-4o mini,42.6
+Molmo2-8B,42.5
+Exaone 4.0 1.2B,42.4
+Mistral Saba,42.4
+Qwen2.5 Coder 32B,41.7
+Granite 4.0 HSmall,41.6
+Devstral Small,41.4
+Kimi Linear 48BA3B Instruct,41.2
+Qwen2.5 Turbo,41.0
+Llama 3.1 70B,40.9
+Llama 3.1NemotronNano 4B v1.1 reasoning,40.8
+Claude 3.5 Haiku,40.8
+DeepSeek R1DistillLlama 70B reasoning,40.2
+Hermes 3 -Llama-3.1 70B,40.1
+Olmo 3 7B,40.0
+Claude 3 Sonnet,40.0
+NVIDIA Nemotron 3Nano,39.9
+Qwen3 4B,39.8
+Jamba 1.7 Large,39.0
+Jamba 1.6 Large,38.7
+DeepHermes 3 -Mistral 24B,38.2
+Mistral Small(Sep),38.1
+Llama 3 70B,37.9
+Qwen3 VL 4B,37.1
+Gemini 1.5 Pro(May),37.1
+Qwen2 72B,37.1
+Gemini 1.5Flash-8B,35.9
+Ministral 3 3B,35.8
+Nova Micro,35.8
+Qwen3 1.7B reasoning,35.6
+Mistral Large(Feb),35.1
+Gemma 3 12B,34.9
+Mistral Medium,34.9
+LFM2 8B A1B,34.4
+Claude 2.0,34.4
+LFM2.5-1.2B-Thinking reasoning,33.9
+Qwen2.5 Coder 7B,33.9
+Granite 3.3 8B,33.8
+Granite 4.0 Micro,33.6
+JambaReasoning 3B reasoning,33.3
+Mixtral 8x22B,33.2
+Phi-4 Mini,33.1
+DBRX,33.1
+Claude Instant,33.0
+OLMo 2 32B,32.8
+Llama 2 Chat 70B,32.7
+LFM 40B,32.7
+LFM2.5-1.2B-Instruct,32.6
+Gemini 1.5 Flash(May),32.4
+Command-R+ (Apr),32.3
+Jamba 1.7 Mini,32.2
+Llama 2 Chat 13B,32.1
+Claude 2.1,31.9
+DeepSeek Coder V2Lite,31.9
+Phi-3 Mini,31.9
+Phi-4 Multimodal,31.5
+LFM2 2.6B,30.6
+Mistral Small(Feb),30.2
+DeepSeek R1DistillLlama 8B reasoning,30.2
+Jamba 1.5 Mini,30.2
+Jamba 1.6 Mini,30.0
+GPT-3.5 Turbo,29.7
+Gemma 3n E4B,29.6
+Llama 3 8B,29.6
+Mixtral 8x7B,29.2
+Gemma 3 4B,29.1
+LFM2.5-VL-1.6B,28.9
+Qwen1.5 Chat 110B,28.9
+OLMo 2 7B,28.8
+Command-R (Mar),28.4
+Qwen3 1.7B,28.3
+Granite 4.0 1B,28.1
+Gemma 3n E4B(May),27.8
+Gemini 1.0 Pro,27.7
+DeepHermes 3 -Llama-3.1 8B,27.0
+Granite 4.0 H 1B,26.3
+Granite 4.0 350M,26.1
+Llama 3.1 8B,25.9
+Granite 4.0 H350M,25.7
+Llama 3.2 3B,25.5
+Molmo 7B-D,24.0
+Qwen3 0.6B reasoning,23.9
+Gemma 3 1B,23.7
+Qwen3 0.6B,23.1
+OpenChat 3.5,23.0
+Gemma 3n E2B,22.9
+LFM2 1.2B,22.8
+Llama 2 Chat 7B,22.7
+Gemma 3 270M,22.4
+Llama 3.2 11B(Vision),22.1
+Llama 3.2 1B,19.6
+Mistral 7B,17.7
+DeepSeek R1Distill Qwen1.5B reasoning,9.8

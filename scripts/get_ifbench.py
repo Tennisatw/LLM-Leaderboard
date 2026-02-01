@@ -15,7 +15,7 @@ if html is None:
     raise ValueError("No HTML part found in the MHTML file.")
 
 soup = BeautifulSoup(html, "html.parser")
-graph = soup.find("div", class_="h-80")
+graph = soup.find("div", class_="lg:overflow-visible")
 
 # texts = table.get_text("\n", strip=True).split("\n")
 text_element = graph.find_all("text")

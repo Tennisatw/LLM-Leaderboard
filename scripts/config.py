@@ -156,6 +156,7 @@ CATALOG = [
     {"family": "minimax-text-01", "aliases": [r"(?:mini\s*max|minimax).*text.*01"]},
 
     # ---------- Kimi ----------
+    {"family": "kimi-k2.5",       "aliases": [r"(?:moonshotai.*kimi|kimi).*k2[.\-]?5(?![\d\.])"]},
     {"family": "kimi-k2",         "aliases": [r"(?:moonshotai.*kimi|kimi).*k2(?![\d\.])"]},
 
     # ---------- Tencent Hunyuan ----------
