@@ -35,12 +35,12 @@ class Target:
 TARGETS: list[Target] = [
     Target(
         name="lmarena-text",
-        url="https://lmarena.ai/leaderboard/text",
+        url="https://arena.ai/leaderboard/text",
         filename="Text Arena _ LMArena.mhtml",
     ),
     Target(
         name="lmarena-vision",
-        url="https://lmarena.ai/leaderboard/vision",
+        url="https://arena.ai/leaderboard/vision",
         filename="Vision Arena _ LMArena.mhtml",
     ),
     Target(

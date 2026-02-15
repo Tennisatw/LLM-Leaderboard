@@ -1,6 +1,7 @@
 from email import message_from_binary_file, policy
 from bs4 import BeautifulSoup
 import csv
+import re
 
 file_path = "pages/Text Arena _ LMArena.mhtml"
 with open(file_path, "rb") as f:
@@ -21,11 +22,23 @@ rows = tbody.find_all("tr")
 
 with open("leaderboards/leaderboard_textarena.csv", "w", newline="", encoding="utf-8") as csvfile:
     csvwriter = csv.writer(csvfile)
-    csvwriter.writerow(["Name", "Organization", "Score"])
+    csvwriter.writerow(["Name", "Score"])
     for row in rows:
         cols = row.find_all("td")
-        name = cols[2].get_text(strip=True)
-        org = cols[6].get_text(strip=True)
-        arena_score = cols[3].get_text(strip=True).replace("Preliminary", "").strip()
+        if not cols:
+            continue
 
-        csvwriter.writerow([name, org, arena_score])
+        # Current structure: Rank / Rank Spread / Model / Score / Votes
+        model_col = cols[2]
+        score_col = cols[3]
+
+        name_tag = model_col.select_one("a span.truncate")
+        if name_tag is None:
+            name_tag = model_col.select_one("span.truncate")
+        name = name_tag.get_text(strip=True) if name_tag else model_col.get_text(" ", strip=True)
+
+        score_text = score_col.get_text(" ", strip=True)
+        score_match = re.search(r"\d{3,4}", score_text)
+        arena_score = score_match.group(0) if score_match else score_text.replace("Preliminary", "").strip()
+
+        csvwriter.writerow([name, arena_score])

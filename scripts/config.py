@@ -37,6 +37,7 @@ REPLACE = {
 
 CATALOG = [
     # ---------- OpenAI: GPT 5 / 4.x / 4o / 4v ----------
+    # {"family": "gpt-5.2-codex",  "aliases": [r"gpt.*5[.\-]?2(?!\d).*codex"]},
     {"family": "gpt-5.2",        "aliases": [r"gpt.*5[.\-]?2(?!\d)"]},
     # {"family": "gpt-5.1-codex",  "aliases": [r"gpt.*5[.\-]?1(?!\d).*codex"]},
     {"family": "gpt-5.1",        "aliases": [r"gpt.*5[.\-]?1(?!\d)"]},
@@ -77,6 +78,7 @@ CATALOG = [
     {"family": "gemma-1.1",      "aliases": [r"gemma[^\d]*1[.\-]?1(?![\d\.])"]},
 
     # ---------- Anthropic Claude ----------
+    {"family": "claude-opus-4.6",    "aliases": [r"claude.*opus.*4[.\-]?6(?!\d)", r"claude.*4[.\-]?6(?!\d).*opus"]},
     {"family": "claude-opus-4.5",    "aliases": [r"claude.*opus.*4[.\-]?5(?!\d)", r"claude.*4[.\-]?5(?!\d).*opus"]},
     {"family": "claude-sonnet-4.5",  "aliases": [r"claude.*sonnet.*4[.\-]?5(?!\d)", r"claude.*4[.\-]?5(?!\d).*sonnet"]},
     {"family": "claude-opus-4.1",    "aliases": [r"claude.*opus.*4[.\-]?1(?!\d)", r"claude.*4[.\-]?1(?!\d).*opus"]},
@@ -89,8 +91,8 @@ CATALOG = [
     {"family": "claude-3-opus",      "aliases": [r"claude[^\d]*3(?![\d\.]).*opus", r"claude.*opus[^\d]*3(?![\d\.])"]},
     {"family": "claude-3-sonnet",    "aliases": [r"claude[^\d]*3(?![\d\.]).*sonnet", r"claude.*sonnet[^\d]*3(?![\d\.])"]},
     {"family": "claude-3-haiku",     "aliases": [r"claude[^\d]*3(?![\d\.]).*haiku", r"claude.*haiku[^\d]*3(?![\d\.])"]},
-    {"family": "claude-2.1",         "aliases": [r"claude*2[.\-]?1(?![\d\.])"]},
-    {"family": "claude-2.0",         "aliases": [r"claude*2[.\-]?0(?![\d\.])"]},
+    {"family": "claude-2.1",         "aliases": [r"claude.*2[.\-]?1(?![\d\.])"]},
+    {"family": "claude-2.0",         "aliases": [r"claude.*2[.\-]?0(?![\d\.])"]},
 
     # ---------- Alibaba Qwen ----------
     {"family": "qwen3-coder",     "aliases": [r"qwen.*3(?![\d\.]).*coder"]},
@@ -105,12 +107,24 @@ CATALOG = [
     {"family": "qvq",             "aliases": [r"\bqvq\b"]},
 
     # ---------- Zhipu GLM ----------
+    {"family": "glm-5",           "aliases": [r"glm[^\d]*5(?![\d\.])"]},
     {"family": "glm-4.7",         "aliases": [r"glm.*4[.\-]?7(?!\d)"]},
     {"family": "glm-4.6",         "aliases": [r"glm.*4[.\-]?6(?!\d)"]},
     {"family": "glm-4.5v",        "aliases": [r"glm.*4[.\-]?5(?!\d)v"]},
     {"family": "glm-4.5",         "aliases": [r"glm.*4[.\-]?5(?!\d)"]},
     {"family": "glm-4.1",         "aliases": [r"glm.*4[.\-]?1(?!\d)"]},
     {"family": "glm-4",           "aliases": [r"glm[^\d]*4(?![\d\.])"]},
+
+    # ---------- MiniMax ----------
+    {"family": "minimax-m2.5",    "aliases": [r"(?:mini\s*max|minimax).*m2[.\-]?5"]},
+    {"family": "minimax-m2.1",    "aliases": [r"(?:mini\s*max|minimax).*m2[.\-]?1"]},
+    {"family": "minimax-m2",      "aliases": [r"(?:mini\s*max|minimax).*m2(?![\d\.])"]},
+    {"family": "minimax-m1",      "aliases": [r"(?:mini\s*max|minimax).*m1(?![\d\.])"]},
+    {"family": "minimax-text-01", "aliases": [r"(?:mini\s*max|minimax).*text.*01"]},
+
+    # ---------- Kimi ----------
+    {"family": "kimi-k2.5",       "aliases": [r"(?:moonshotai.*kimi|kimi).*k2[.\-]?5(?![\d\.])"]},
+    {"family": "kimi-k2",         "aliases": [r"(?:moonshotai.*kimi|kimi).*k2(?![\d\.])"]},
 
     # ---------- DeepSeek ----------
     {"family": "deepseek-r1-distill-qwen",     "aliases": [r"deepseek.*r1.*distill.*qwen"]},
@@ -148,16 +162,6 @@ CATALOG = [
     {"family": "mistral-medium",  "aliases": [r"\bmistral.*medium"]},
     {"family": "mistral-small",   "aliases": [r"\bmistral.*small"]},
     {"family": "mistral",         "aliases": [r"\bmistral\b"]},
-
-    # ---------- MiniMax ----------
-    {"family": "minimax-m2.1",    "aliases": [r"(?:mini\s*max|minimax).*m2[.\-]?1"]},
-    {"family": "minimax-m2",      "aliases": [r"(?:mini\s*max|minimax).*m2(?![\d\.])"]},
-    {"family": "minimax-m1",      "aliases": [r"(?:mini\s*max|minimax).*m1(?![\d\.])"]},
-    {"family": "minimax-text-01", "aliases": [r"(?:mini\s*max|minimax).*text.*01"]},
-
-    # ---------- Kimi ----------
-    {"family": "kimi-k2.5",       "aliases": [r"(?:moonshotai.*kimi|kimi).*k2[.\-]?5(?![\d\.])"]},
-    {"family": "kimi-k2",         "aliases": [r"(?:moonshotai.*kimi|kimi).*k2(?![\d\.])"]},
 
     # ---------- Tencent Hunyuan ----------
     {"family": "hunyuan-turbo-s", "aliases": [r"hunyuan.*turbo.*s"]},
