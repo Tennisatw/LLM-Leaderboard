@@ -37,6 +37,7 @@ REPLACE = {
 
 CATALOG = [
     # ---------- OpenAI: GPT 5 / 4.x / 4o / 4v ----------
+    {"family": "gpt-5.3",        "aliases": [r"gpt.*5[.\-]?3(?!\d)"]},
     # {"family": "gpt-5.2-codex",  "aliases": [r"gpt.*5[.\-]?2(?!\d).*codex"]},
     {"family": "gpt-5.2",        "aliases": [r"gpt.*5[.\-]?2(?!\d)"]},
     # {"family": "gpt-5.1-codex",  "aliases": [r"gpt.*5[.\-]?1(?!\d).*codex"]},
@@ -66,6 +67,7 @@ CATALOG = [
 
 
     # ---------- Google Gemini ----------
+    {"family": "gemini-3.1",     "aliases": [r"gemini.*3[.\-]?1(?!\d)"]},
     {"family": "gemini-3",       "aliases": [r"gemini.*3(?![\d\.])"]},
     {"family": "gemini-2.5",     "aliases": [r"gemini.*2[.\-]?5(?!\d)"]},
     {"family": "gemini-2.0",     "aliases": [r"gemini.*2[.\-]?0(?!\d)"]},
@@ -78,6 +80,7 @@ CATALOG = [
     {"family": "gemma-1.1",      "aliases": [r"gemma[^\d]*1[.\-]?1(?![\d\.])"]},
 
     # ---------- Anthropic Claude ----------
+    {"family": "claude-sonnet-4.6",  "aliases": [r"claude.*sonnet.*4[.\-]?6(?!\d)", r"claude.*4[.\-]?6(?!\d).*sonnet"]},
     {"family": "claude-opus-4.6",    "aliases": [r"claude.*opus.*4[.\-]?6(?!\d)", r"claude.*4[.\-]?6(?!\d).*opus"]},
     {"family": "claude-opus-4.5",    "aliases": [r"claude.*opus.*4[.\-]?5(?!\d)", r"claude.*4[.\-]?5(?!\d).*opus"]},
     {"family": "claude-sonnet-4.5",  "aliases": [r"claude.*sonnet.*4[.\-]?5(?!\d)", r"claude.*4[.\-]?5(?!\d).*sonnet"]},
@@ -95,12 +98,13 @@ CATALOG = [
     {"family": "claude-2.0",         "aliases": [r"claude.*2[.\-]?0(?![\d\.])"]},
 
     # ---------- Alibaba Qwen ----------
-    {"family": "qwen3-coder",     "aliases": [r"qwen.*3(?![\d\.]).*coder"]},
-    {"family": "qwen3-max",       "aliases": [r"qwen.*3(?![\d\.]).*max"]},
-    # {"family": "qwen3-vl",        "aliases": [r"qwen.*3(?![\d\.]).*vl"]},
-    {"family": "qwen3",           "aliases": [r"qwen[^\d]*3(?![\d\.])"]},
-    {"family": "qwen2.5",         "aliases": [r"qwen.*2[.\-]?5(?!\d)"]},
-    {"family": "qwen2",           "aliases": [r"qwen[^\d]*2(?![\d\.]|[.\-]?5)"]},
+    {"family": "qwen-3.5",         "aliases": [r"qwen.*3[.\-]?5(?![\d\.])"]},
+    {"family": "qwen-3-coder",     "aliases": [r"qwen.*3(?![\d\.]).*coder"]},
+    {"family": "qwen-3-max",       "aliases": [r"qwen.*3(?![\d\.]).*max"]},
+    # {"family": "qwen-3-vl",        "aliases": [r"qwen.*3(?![\d\.]).*vl"]},
+    {"family": "qwen-3",           "aliases": [r"qwen[^\d]*3(?![\d\.])"]},
+    {"family": "qwen-2.5",         "aliases": [r"qwen.*2[.\-]?5(?!\d)"]},
+    {"family": "qwen-2",           "aliases": [r"qwen[^\d]*2(?![\d\.]|[.\-]?5)"]},
     {"family": "qwen",            "aliases": [r"qwen(?!\d)", r"qwen[^\d]*vl"]},
 
     {"family": "qwq",             "aliases": [r"\bqwq\b"]},
