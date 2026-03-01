@@ -5,6 +5,7 @@ REPLACE = {
     "no-thinking": "",
     "w/o thinking": "",
     "thinking": "",
+    "(max) reasoning": "",
     "reasoning": "",
     "deepthinking": "",
     "[r]": "",

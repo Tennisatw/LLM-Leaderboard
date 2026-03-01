@@ -1,16 +1,16 @@
 大语言模型综合排行榜 26-03-01
 
 本周排名前10的模型为：
-GPT-5.3
+GPT-5.3 (codex)
 Gemini 3.1 Pro
 GPT-5.2
 Gemini 3 Pro
 Gemini 3 Flash
-Claude Sonnet 4.6 max
-Claude Opus 4.6 max
+Claude Opus 4.6
+Claude Sonnet 4.6
 Claude Opus 4.5
 Qwen 3.5 397b
-GPT-5.1
+Qwen 3.5 27b
 
 简介：
 本表格汇总了常用大语言模型在主流评测排行榜上的表现。评测范围涵盖：
@@ -18,12 +18,15 @@ GPT-5.1
 在整合各项评测结果的基础上，计算出综合排名。
 
 更新：
-本周大模型排行榜彻底变了天了。Openai，Google，Anthropic，阿里巴巴等大厂陆续推出了最新的旗舰模型。目前GPT-5.3和Gemini 3.1 Pro属于是当前综合实力最佳的模型。Claude和Qwen模型的最新版本也进入了排行榜前十。
+本周，排行榜彻底变了天了。Openai，Google，Anthropic，阿里巴巴等大厂陆续推出了最新的旗舰模型。GPT-5.3 (codex) 和Gemini 3.1 Pro成为了当前综合实力最佳的模型。Claude和Qwen模型的最新版本也进入了排行榜前十。
+Top模型的数据还是不足，期待下次更新，也期待GPT-5.3 正式版的表现。
+之前一版的内容有误，在此致歉，也感谢各位大佬在评论区指正。
+
 总结：
-综合实力最强：GPT-5.3
+综合实力最强：GPT-5.3 (codex)
 国内最强模型：Qwen 3.5 397b
 最强开源模型：Qwen 3.5 397b
-最强代码模型：Gemini 3 Pro/Claude Sonnet 4.6 max(暂无数据但表现极佳)
+最强代码模型：Gemini 3 Pro/Claude Sonnet 4.6(暂无数据但表现极佳)
 
 本项目仓库：
 https://github.com/Tennisatw/LLM-Leaderboard
