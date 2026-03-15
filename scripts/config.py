@@ -14,7 +14,7 @@ REPLACE = {
     # "3-5": "3.5",
     "-preview": "", 
     "-prerelease": "",
-    "-beta": "",
+    "beta": " ",
     "-chat": "",
     "distill ": "distill",
     "openai": "",
@@ -38,6 +38,7 @@ REPLACE = {
 
 CATALOG = [
     # ---------- OpenAI: GPT 5 / 4.x / 4o / 4v ----------
+    {"family": "gpt-5.4",        "aliases": [r"gpt.*5[.\-]?4(?!\d)"]},
     {"family": "gpt-5.3",        "aliases": [r"gpt.*5[.\-]?3(?!\d)"]},
     # {"family": "gpt-5.2-codex",  "aliases": [r"gpt.*5[.\-]?2(?!\d).*codex"]},
     {"family": "gpt-5.2",        "aliases": [r"gpt.*5[.\-]?2(?!\d)"]},
@@ -61,6 +62,7 @@ CATALOG = [
     {"family": "gpt-oss",        "aliases": [r"gpt.*oss"]},
 
     # ---------- xAI Grok ----------
+    {"family": "grok-4.20",      "aliases": [r"grok.*4[.\-]?20(?!\d)"]},
     {"family": "grok-4.1",       "aliases": [r"grok.*4[.\-]?1(?!\d)"]},
     {"family": "grok-4",         "aliases": [r"grok.*4(?![\d\.])"]},
     {"family": "grok-3",         "aliases": [r"grok.*3(?![\d\.])"]},
@@ -150,6 +152,7 @@ CATALOG = [
     {"family": "llama-3",         "aliases": [r"llama.*3(?![\d\.])"]},
     {"family": "llama-2",         "aliases": [r"llama.*2(?![\d\.])"]},
 
+    {"family": "nvidia-nemotron-3", "aliases": [r"nvidia.*nemotron.*3"]},
     {"family": "nvidia-nemotron", "aliases": [r"nemotron(?:.*ultra)?"]},
     {"family": "nvlm-h",          "aliases": [r"\bnvlm.*h\b"]},
     {"family": "nvlm-d",          "aliases": [r"\bnvlm.*d\b"]},
@@ -223,6 +226,7 @@ CATALOG = [
     {"family": "internvl2",       "aliases": [r"internvl.*2(?![\d\.])"]},
 
     # ---------- Other ----------
+    {"family": "step-3.5",       "aliases": [r"step.*3[.\-]?5(?!\d)"]},
     {"family": "kat-coder",      "aliases": [r"kat.*coder"]},
     {"family": "ernie-5.0",      "aliases": [r"ernie.*5[.\-]?0(?!\d)"]},
     {"family": "ernie-4.5",      "aliases": [r"ernie.*4[.\-]?5(?!\d)"]},
@@ -256,6 +260,7 @@ CATALOG = [
 TIER_MAP = {
     # size and speed descriptors
     "nano": "nano",
+    "super": "super",
     "mini": "mini", "minimal": "mini",
     "small": "small",
     "flash": "flash",
@@ -284,9 +289,6 @@ TIER_MAP = {
     "plus": "plus",
     "max": "max",
     "turbo": "turbo",
-
-    # others
-    "nemotron": "nemotron",
 }
 
 import re
