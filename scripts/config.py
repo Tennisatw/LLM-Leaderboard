@@ -123,6 +123,7 @@ CATALOG = [
     {"family": "glm-4",           "aliases": [r"glm[^\d]*4(?![\d\.])"]},
 
     # ---------- MiniMax ----------
+    {"family": "minimax-m2.7",    "aliases": [r"(?:mini\s*max|minimax).*m2[.\-]?7"]},
     {"family": "minimax-m2.5",    "aliases": [r"(?:mini\s*max|minimax).*m2[.\-]?5"]},
     {"family": "minimax-m2.1",    "aliases": [r"(?:mini\s*max|minimax).*m2[.\-]?1"]},
     {"family": "minimax-m2",      "aliases": [r"(?:mini\s*max|minimax).*m2(?![\d\.])"]},
@@ -132,6 +133,11 @@ CATALOG = [
     # ---------- Kimi ----------
     {"family": "kimi-k2.5",       "aliases": [r"(?:moonshotai.*kimi|kimi).*k2[.\-]?5(?![\d\.])"]},
     {"family": "kimi-k2",         "aliases": [r"(?:moonshotai.*kimi|kimi).*k2(?![\d\.])"]},
+
+    # ---------- MiMo ----------
+    {"family": "mimo-v2-pro",     "aliases": [r"mimo.*v2.*pro"]},
+    {"family": "mimo-v2-flash",     "aliases": [r"mimo.*v2.*flash"]},
+    {"family": "mimo-v2-omni",    "aliases": [r"mimo.*v2.*omni"]},
 
     # ---------- DeepSeek ----------
     {"family": "deepseek-r1-distill-qwen",     "aliases": [r"deepseek.*r1.*distill.*qwen"]},
@@ -232,6 +238,7 @@ CATALOG = [
     {"family": "ernie-4.5",      "aliases": [r"ernie.*4[.\-]?5(?!\d)"]},
     {"family": "Apriel-v1.6",    "aliases": [r"Apriel.*1[.\-]?6(?!\d)"]},
     {"family": "Apriel-v1.5",    "aliases": [r"Apriel.*1[.\-]?5(?!\d)"]},
+    {"family": "nanbeige-4.1",   "aliases": [r"nanbeige.*4[.\-]?1(?!\d)"]},
 
     # ---------- Misc remaining names ----------
     {"family": "360vl",           "aliases": [r"\b360vl\b"]},
